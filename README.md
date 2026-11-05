@@ -187,3 +187,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## Footnotes
+
+Candidate modules for this list were researched and fact-checked (maintenance status, archival state, actual PowerShell Gallery package names) with AI assistance. Every addition, rejection, and categorization decision was made by a human maintainer.
