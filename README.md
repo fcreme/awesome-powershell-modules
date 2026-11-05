@@ -35,6 +35,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Pester](https://github.com/pester/Pester#readme) - BDD-style test and mocking framework for PowerShell.
 - [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer#readme) - Static analysis tool that checks PowerShell code against a set of best-practice rules.
 - [Selenium](https://github.com/adamdriscoll/selenium-powershell#readme) - Automates web browsers using the Selenium WebDriver.
+- [PSKoans](https://github.com/PowerShellOrg/PSKoans#readme) - Teaches the PowerShell language through a series of Pester-based coding exercises.
 
 ## Build & Automation
 
