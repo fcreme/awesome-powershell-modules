@@ -52,6 +52,8 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Catesta](https://github.com/techthoughts2/Catesta#readme) - Scaffolds PowerShell module projects with CI/CD pipelines for multiple platforms.
 - [PSModuleDevelopment](https://github.com/PowershellFrameworkCollective/PSModuleDevelopment/tree/master#readme) - Provides templates and tooling for scaffolding new PowerShell modules.
 - [Microsoft.PowerShell.Crescendo](https://github.com/PowerShell/Crescendo#readme) - Wraps native command-line applications in PowerShell functions and modules.
+- [BuildHelpers](https://github.com/PowerShellOrg/BuildHelpers#readme) - Provides helper functions for PowerShell CI/CD pipelines.
+- [PSDeploy](https://github.com/RamblingCookieMonster/PSDeploy#readme) - Defines and runs simple, declarative PowerShell-based deployments.
 
 ## Documentation
 
@@ -70,6 +72,8 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSparklines](https://github.com/endowdly/PSparklines#readme) - Renders sparkline charts directly in the console.
 - [PSQR](https://github.com/jakehildreth/psqr#readme) - Generates QR codes directly in the terminal.
 - [Graphical](https://github.com/PrateekKumarSingh/graphical#readme) - Plots scatter, bar, and line graphs directly in the console.
+- [PSScriptTools](https://github.com/jdhitsolutions/PSScriptTools#readme) - Collection of functions to enhance your own PowerShell scripts and console work.
+- [ps-menu](https://github.com/chrisseroka/ps-menu#readme) - Renders simple interactive menus in the console.
 
 ## Secrets & Security
 
@@ -103,6 +107,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Microsoft.PowerShell.ConsoleGuiTools](https://github.com/PowerShell/ConsoleGuiTools#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
 - [Watch](https://github.com/markwragg/Powershell-Watch#readme) - Repeatedly runs a command or script block and returns output only when it changes.
 - [PSPreworkout](https://github.com/samerde/PSPreWorkout#readme) - Collection of tools for warming up and customizing a PowerShell session.
+- [PSUtil](https://github.com/PowershellFrameworkCollective/PSUtil#readme) - Provides shortcuts, aliases, and convenience functions for a more efficient console experience.
 
 ## Databases
 
