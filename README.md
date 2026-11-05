@@ -74,6 +74,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Graphical](https://github.com/PrateekKumarSingh/graphical#readme) - Plots scatter, bar, and line graphs directly in the console.
 - [PSScriptTools](https://github.com/jdhitsolutions/PSScriptTools#readme) - Collection of functions to enhance your own PowerShell scripts and console work.
 - [ps-menu](https://github.com/chrisseroka/ps-menu#readme) - Renders simple interactive menus in the console.
+- [psedit](https://github.com/ironmansoftware/psedit#readme) - Terminal-based text editor for PowerShell.
 
 ## Secrets & Security
 
@@ -141,6 +142,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Evergreen](https://github.com/EUCPilots/evergreen-module#readme) - Returns the latest version numbers and download URLs for common third-party applications.
 - [ADSec](https://github.com/PSSecTools/ADSec#readme) - Provides tools for assessing and hardening Active Directory security.
 - [GPOTools](https://github.com/FriedrichWeinmann/GPOTools/tree/master#readme) - Provides tools for managing and auditing Group Policy Objects.
+- [FindOpenFile](https://github.com/ironmansoftware/findopenfiles#readme) - Finds processes that are holding files open.
 
 ## Networking
 
@@ -191,6 +193,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser#readme) - Runs scripts as the logged-on user while executing under the SYSTEM account.
 - [IntuneHydrationKit](https://github.com/jorgeasaurus/IntuneHydrationKit#readme) - Imports a set of starter configuration baselines into Microsoft Intune.
 - [Invoke-CommandAs](https://github.com/mkellerman/Invoke-CommandAs#readme) - Runs commands as System, a GMSA, or another user on local or remote machines.
+- [PSMSI](https://github.com/ironmansoftware/psmsi#readme) - Creates MSI installers using PowerShell.
 
 ## Productivity
 
@@ -199,6 +202,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Lumos](https://github.com/markwragg/powershell-lumos#readme) - Switches Windows, macOS, and Linux between light and dark themes depending on the time of day.
 - [HashCopy](https://github.com/markwragg/Powershell-HashCopy#readme) - Copies and compares files between two paths based on computed hash values rather than modified dates.
 - [AudioDeviceCmdlets](https://github.com/frgnca/AudioDeviceCmdlets#readme) - Lists and controls audio playback and recording devices on Windows.
+- [PSCommander](https://github.com/ironmansoftware/pscommander#readme) - Wires up desktop integrations such as hotkeys, tray icons, and scheduled tasks to PowerShell script blocks.
 
 ## Learning
 
