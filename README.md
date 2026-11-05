@@ -85,6 +85,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
 - [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui.
 - [PSparklines](https://github.com/endowdly/PSparklines#readme) - Renders sparkline charts directly in the console.
+- [PSQR](https://github.com/jakehildreth/psqr#readme) - Generates QR codes directly in the terminal.
 
 ## Databases
 
