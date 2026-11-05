@@ -96,4 +96,4 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 
 ## Contributing
 
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
