@@ -21,6 +21,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Reporting & Data Export](#reporting--data-export)
 - [Parallelization](#parallelization)
 - [Packaging & Deployment](#packaging--deployment)
+- [Productivity](#productivity)
 - [Fun & Novelty](#fun--novelty)
 
 ## Package & Dependency Management
@@ -75,6 +76,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PowerLine](https://github.com/Jaykul/PowerLine#readme) - Provides classes for building richer, multi-line prompts and console output.
 - [PoshColor](https://github.com/JustABearOz/PoshColor#readme) - Colorizes the output of common commands with support for custom themes.
 - [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
+- [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui.
 
 ## Databases
 
@@ -124,11 +126,16 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PSAppDeployToolkit](https://github.com/psappdeploytoolkit/PSAppDeployToolkit#readme) - Standardizes application deployment, detection, and uninstallation for Windows.
 - [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser#readme) - Runs scripts as the logged-on user while executing under the SYSTEM account.
 
+## Productivity
+
+- [PSWorkItem](https://github.com/jdhitsolutions/PSWorkItem#readme) - Manages personal tasks and to-do items backed by a local SQLite database.
+
 ## Fun & Novelty
 
 - [XKCD](https://github.com/markwragg/Powershell-XKCD#readme) - Fetches, searches, and displays comics from the XKCD webcomic.
 - [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
 - [PSPodcast](https://github.com/jdhitsolutions/PSPodcast#readme) - Gets and displays episode information for The PowerShell Podcast.
+- [PSBluesky](https://github.com/jdhitsolutions/PSBluesky#readme) - Posts, views, and manages your feed and timeline on Bluesky.
 
 ## Contributing
 
