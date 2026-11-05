@@ -169,6 +169,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PowerTrello](https://github.com/adbertram/PowerTrello#readme) - Manages Trello boards, lists, and cards via the Trello API.
 - [CurrencyConverter](https://github.com/markwragg/PowerShell-CurrencyConverter#readme) - Converts and reports on currency exchange rates.
 - [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
+- [TOPdeskPS](https://github.com/AndrewPla/TOPdeskPS/tree/master#readme) - Interacts with the TOPdesk IT service management API.
 
 ## Reporting & Data Export
 

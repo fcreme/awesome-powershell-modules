@@ -4,6 +4,7 @@ Ensure your pull request adheres to the following guidelines:
 
 - Search previous suggestions before making a new one, as yours may be a duplicate.
 - The submitted module should be actively maintained, documented, and available on the [PowerShell Gallery](https://www.powershellgallery.com/) or as a public repository.
+- The module must be free and open source. Commercial products, and modules that primarily serve to install or unlock a paid product, are not accepted.
 - Don't submit modules that are archived, deprecated, or have been unmaintained for a long period.
 - If you submit a module that is similar to an existing entry, explain how it's different or better.
 - Use the following format: `[Module Name](link) - Description.`
