@@ -19,6 +19,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Reporting & Data Export](#reporting--data-export)
 - [Parallelization](#parallelization)
 - [Packaging & Deployment](#packaging--deployment)
+- [Fun & Novelty](#fun--novelty)
 
 ## Package & Dependency Management
 
@@ -94,6 +95,10 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 ## Packaging & Deployment
 
 - [PS2EXE](https://github.com/MScholtes/PS2EXE#readme) - Compiles PowerShell scripts into standalone Windows executables.
+
+## Fun & Novelty
+
+- [XKCD](https://github.com/markwragg/Powershell-XKCD#readme) - Fetches, searches, and displays comics from the XKCD webcomic.
 
 ## Contributing
 
