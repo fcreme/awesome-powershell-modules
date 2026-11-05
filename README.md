@@ -31,6 +31,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PSResourceGet](https://github.com/PowerShell/PSResourceGet#readme) - Next-generation package manager for PowerShell modules, scripts, and DSC resources.
 - [ModuleFast](https://github.com/JustinGrote/ModuleFast#readme) - Rapid, parallelized module installer for PowerShell.
 - [PSDepend](https://github.com/PowerShellOrg/PSDepend#readme) - Declarative dependency handler for PowerShell projects.
+- [PSGalleryExplorer](https://github.com/techthoughts2/PSGalleryExplorer#readme) - Searches, explores, and discovers modules on the PowerShell Gallery.
 
 ## Testing & Code Quality
 
@@ -135,6 +136,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PSAI](https://github.com/dfinke/PSAI#readme) - Framework for building and orchestrating multi-agent AI systems in PowerShell.
 - [PSClaudeCode](https://github.com/dfinke/PSClaudeCode#readme) - PowerShell implementation of the Claude Code agent loop, including tools and permissions.
 - [PSPushover](https://github.com/joshooaj/PSPushover#readme) - Sends push notifications through the Pushover service.
+- [PowerTrello](https://github.com/adbertram/PowerTrello#readme) - Manages Trello boards, lists, and cards via the Trello API.
 
 ## Reporting & Data Export
 
@@ -161,6 +163,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 ## Productivity
 
 - [PSWorkItem](https://github.com/jdhitsolutions/PSWorkItem#readme) - Manages personal tasks and to-do items backed by a local SQLite database.
+- [PSCalendar](https://github.com/jdhitsolutions/PSCalendar#readme) - Displays calendars in the console.
 
 ## Learning
 
