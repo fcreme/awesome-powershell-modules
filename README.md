@@ -16,6 +16,8 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Databases](#databases)
 - [Cloud & Virtualization](#cloud--virtualization)
 - [Networking](#networking)
+- [Web Servers & APIs](#web-servers--apis)
+- [SaaS Integrations](#saas-integrations)
 - [Reporting & Data Export](#reporting--data-export)
 - [Parallelization](#parallelization)
 - [Packaging & Deployment](#packaging--deployment)
@@ -31,6 +33,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 
 - [Pester](https://github.com/pester/Pester#readme) - BDD-style test and mocking framework for PowerShell.
 - [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer#readme) - Static analysis tool that checks PowerShell code against a set of best-practice rules.
+- [Selenium](https://github.com/adamdriscoll/selenium-powershell#readme) - Automates web browsers using the Selenium WebDriver.
 
 ## Build & Automation
 
@@ -39,6 +42,8 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PowerShellBuild](https://github.com/psake/PowerShellBuild#readme) - Common build, test, and packaging tasks for PowerShell module projects.
 - [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder#readme) - Compiles multiple source files into a single PowerShell module for distribution.
 - [Plaster](https://github.com/PowerShellOrg/Plaster#readme) - Scaffolds new PowerShell modules, scripts, and files from templates.
+- [Catesta](https://github.com/techthoughts2/Catesta#readme) - Scaffolds PowerShell module projects with CI/CD pipelines for multiple platforms.
+- [PSModuleDevelopment](https://github.com/PowershellFrameworkCollective/PSModuleDevelopment#readme) - Provides templates and tooling for scaffolding new PowerShell modules.
 
 ## Documentation
 
@@ -56,6 +61,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 ## Logging & Diagnostics
 
 - [PSFramework](https://github.com/PowershellFrameworkCollective/PSFramework#readme) - Configuration, logging, and runtime framework for building robust PowerShell tooling.
+- [PoShLog](https://github.com/PoShLog/PoShLog#readme) - Cross-platform logging module built on Serilog.
 
 ## Shell Experience
 
@@ -64,11 +70,14 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons#readme) - Adds file and folder icons to directory listings based on file type.
 - [PSFzf](https://github.com/kelleyma49/PSFzf#readme) - Integrates the fzf fuzzy finder with command history and tab completion.
 - [ConsoleGuiTools](https://github.com/PowerShell/ConsoleGuiTools#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
+- [PowerLine](https://github.com/Jaykul/PowerLine#readme) - Provides classes for building richer, multi-line prompts and console output.
+- [PoshColor](https://github.com/JustABearOz/PoshColor#readme) - Colorizes the output of common commands with support for custom themes.
 
 ## Databases
 
 - [dbatools](https://github.com/dataplat/dbatools#readme) - Automates SQL Server instance migration, administration, and best-practice checks.
 - [SqlServer](https://www.powershellgallery.com/packages/SqlServer) - Official module for querying and managing SQL Server instances and databases.
+- [SimplySql](https://github.com/mithrandyr/SimplySql#readme) - Provides a vendor-agnostic set of cmdlets for connecting to and querying databases.
 
 ## Cloud & Virtualization
 
@@ -80,12 +89,25 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
 
+## Web Servers & APIs
+
+- [Pode](https://github.com/Badgerati/Pode#readme) - Cross-platform framework for building web servers, REST APIs, and SMTP/TCP servers.
+- [Polaris](https://github.com/PowerShell/Polaris#readme) - Minimalist, cross-platform web framework for building HTTP APIs.
+
+## SaaS Integrations
+
+- [JiraPS](https://github.com/AtlassianPS/JiraPS#readme) - Manages Jira issues, projects, and workflows via the Jira REST API.
+- [ConfluencePS](https://github.com/AtlassianPS/ConfluencePS#readme) - Manages Confluence pages and spaces via the Confluence REST API.
+- [PSTeams](https://github.com/EvotecIT/PSTeams#readme) - Sends formatted adaptive card messages to Microsoft Teams channels.
+
 ## Reporting & Data Export
 
 - [ImportExcel](https://github.com/dfinke/ImportExcel#readme) - Reads and writes Excel files without requiring Excel to be installed.
 - [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML#readme) - Builds interactive HTML reports, dashboards, and charts.
 - [PSWriteWord](https://github.com/EvotecIT/PSWriteWord#readme) - Creates and edits Word documents without requiring Word to be installed.
 - [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
+- [PSWritePDF](https://github.com/EvotecIT/PSWritePDF#readme) - Creates, edits, splits, and merges PDF files.
+- [powershell-yaml](https://github.com/cloudbase/powershell-yaml#readme) - Converts between YAML and PowerShell objects.
 
 ## Parallelization
 
@@ -95,10 +117,12 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 ## Packaging & Deployment
 
 - [PS2EXE](https://github.com/MScholtes/PS2EXE#readme) - Compiles PowerShell scripts into standalone Windows executables.
+- [PSAppDeployToolkit](https://github.com/psappdeploytoolkit/PSAppDeployToolkit#readme) - Standardizes application deployment, detection, and uninstallation for Windows.
 
 ## Fun & Novelty
 
 - [XKCD](https://github.com/markwragg/Powershell-XKCD#readme) - Fetches, searches, and displays comics from the XKCD webcomic.
+- [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
 
 ## Contributing
 
