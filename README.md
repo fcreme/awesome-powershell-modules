@@ -58,7 +58,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Documentation
 
 - [platyPS](https://github.com/PowerShell/platyPS#readme) - Generates external help files and Markdown documentation from comment-based help.
-- [PSDocs](https://github.com/microsoft/PSDocs#readme) - Generates Markdown documentation from objects using a domain-specific language.
+- [PSDocs.Azure](https://github.com/Azure/PSDocs.Azure#readme) - Generates documentation from Azure infrastructure as code (IaC) artifacts.
 
 ## Development Tools
 
@@ -106,7 +106,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons#readme) - Adds file and folder icons to directory listings based on file type.
 - [PSFzf](https://github.com/kelleyma49/PSFzf#readme) - Integrates the fzf fuzzy finder with command history and tab completion.
 - [PowerShellRun](https://github.com/mdgrs-mei/PowerShellRun#readme) - Terminal-based launcher and fuzzy finder for PowerShell.
-- [Microsoft.PowerShell.ConsoleGuiTools](https://github.com/PowerShell/ConsoleGuiTools#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
+- [PSTui](https://github.com/tui-cs/PSTui#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
 - [Watch](https://github.com/markwragg/Powershell-Watch#readme) - Repeatedly runs a command or script block and returns output only when it changes.
 - [PSPreworkout](https://github.com/samerde/PSPreWorkout#readme) - Collection of tools for warming up and customizing a PowerShell session.
 - [PSUtil](https://github.com/PowershellFrameworkCollective/PSUtil#readme) - Provides shortcuts, aliases, and convenience functions for a more efficient console experience.
@@ -160,7 +160,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 - [Pode](https://github.com/Badgerati/Pode/tree/master#readme) - Cross-platform framework for building web servers, REST APIs, and SMTP/TCP servers.
 - [Pode.Web](https://github.com/Badgerati/Pode.Web/tree/master#readme) - Web template framework for building front-ends on top of Pode.
-- [Polaris](https://github.com/PowerShell/Polaris#readme) - Minimalist, cross-platform web framework for building HTTP APIs.
 
 ## SaaS Integrations
 
@@ -184,9 +183,8 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 - [ImportExcel](https://github.com/dfinke/ImportExcel#readme) - Reads and writes Excel files without requiring Excel to be installed.
 - [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML#readme) - Builds interactive HTML reports, dashboards, and charts.
-- [PSWriteWord](https://github.com/EvotecIT/PSWriteWord#readme) - Creates and edits Word documents without requiring Word to be installed.
 - [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
-- [PSWritePDF](https://github.com/EvotecIT/PSWritePDF#readme) - Creates, edits, splits, and merges PDF files.
+- [PSWriteOffice](https://github.com/EvotecIT/OfficeIMO/tree/master/PowerShell/PSWriteOffice#readme) - Creates and edits Word, Excel, PowerPoint, and PDF documents without requiring Microsoft Office.
 - [powershell-yaml](https://github.com/cloudbase/powershell-yaml#readme) - Converts between YAML and PowerShell objects.
 - [PSMarkdown](https://github.com/ishu3101/PSMarkdown#readme) - Converts PowerShell objects to and from Markdown tables.
 - [PSHTML](https://github.com/stephanevg/PSHTML#readme) - Generates HTML markup using a PowerShell-based DSL.

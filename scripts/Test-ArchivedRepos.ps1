@@ -5,6 +5,8 @@
     Path to the README.md file to parse.
 .PARAMETER GitHubToken
     Optional token used to authenticate GitHub API requests and avoid rate limiting.
+.PARAMETER ExcludeRepo
+    Repos (owner/name) to skip, e.g. ones kept intentionally despite being archived.
 .EXAMPLE
     ./Test-ArchivedRepos.ps1
 .EXAMPLE
@@ -13,14 +15,20 @@
 [CmdletBinding()]
 param(
     [string]$Path = (Join-Path $PSScriptRoot '..' 'README.md'),
-    [string]$GitHubToken = $env:GITHUB_TOKEN
+    [string]$GitHubToken = $env:GITHUB_TOKEN,
+    [string[]]$ExcludeRepo = @(
+        # Archived by the PowerShell team as "feature complete", not abandoned. Still the standard, functional way to do this.
+        'PowerShell/SecretManagement',
+        'PowerShell/SecretStore'
+    )
 )
 
 $content = Get-Content -Path $Path -Raw
 $repoPattern = 'github\.com/(?<Repo>[A-Za-z0-9._-]+/[A-Za-z0-9._-]+)'
 $repos = [regex]::Matches($content, $repoPattern) |
     ForEach-Object { $_.Groups['Repo'].Value } |
-    Sort-Object -Unique
+    Sort-Object -Unique |
+    Where-Object { $ExcludeRepo -notcontains $_ }
 
 $headers = @{ 'User-Agent' = 'awesome-powershell-modules-archive-check' }
 if ($GitHubToken) {
