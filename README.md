@@ -37,6 +37,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Invoke-Build](https://github.com/nightroman/Invoke-Build#readme) - Build and test automation tool with a task-based scripting model.
 - [PowerShellBuild](https://github.com/psake/PowerShellBuild#readme) - Common build, test, and packaging tasks for PowerShell module projects.
 - [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder#readme) - Compiles multiple source files into a single PowerShell module for distribution.
+- [Plaster](https://github.com/PowerShellOrg/Plaster#readme) - Scaffolds new PowerShell modules, scripts, and files from templates.
 
 ## Documentation
 
