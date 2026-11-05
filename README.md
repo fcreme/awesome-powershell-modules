@@ -4,6 +4,8 @@
 
 PowerShell modules package up cmdlets, functions, and resources so they can be installed, versioned, and reused across scripts. This list focuses on modules that are actively maintained and worth reaching for first.
 
+Install any module below with `Install-Module <Name>` (PowerShellGet) or `Install-PSResource <Name>` (PSResourceGet). Add `-Scope CurrentUser` to either command to install just for your user account, without requiring administrator rights.
+
 ## Contents
 
 - [Package & Dependency Management](#package--dependency-management)
