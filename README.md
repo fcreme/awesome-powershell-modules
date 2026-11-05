@@ -39,6 +39,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 - [Pester](https://github.com/pester/Pester#readme) - BDD-style test and mocking framework for PowerShell.
 - [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer#readme) - Static analysis tool that checks PowerShell code against a set of best-practice rules.
+- [PSRule](https://github.com/microsoft/PSRule#readme) - Validates infrastructure as code and objects against PowerShell-defined rules.
 - [Selenium](https://github.com/adamdriscoll/selenium-powershell#readme) - Automates web browsers using the Selenium WebDriver.
 
 ## Build & Automation
