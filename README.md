@@ -22,7 +22,6 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 
 ## Package & Dependency Management
 
-- [PowerShellGet](https://github.com/PowerShell/PowerShellGet#readme) - Package manager for discovering, installing, and publishing PowerShell modules and scripts.
 - [PSResourceGet](https://github.com/PowerShell/PSResourceGet#readme) - Next-generation package manager for PowerShell modules, scripts, and DSC resources.
 - [ModuleFast](https://github.com/JustinGrote/ModuleFast#readme) - Rapid, parallelized module installer for PowerShell.
 - [PSDepend](https://github.com/PowerShellOrg/PSDepend#readme) - Declarative dependency handler for PowerShell projects.
