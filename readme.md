@@ -1,0 +1,99 @@
+# Awesome PowerShell Modules [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of awesome PowerShell modules for package management, testing, automation, security, cloud administration, and more.
+
+PowerShell modules package up cmdlets, functions, and resources so they can be installed, versioned, and reused across scripts. This list focuses on modules that are actively maintained and worth reaching for first.
+
+## Contents
+
+- [Package & Dependency Management](#package--dependency-management)
+- [Testing & Code Quality](#testing--code-quality)
+- [Build & Automation](#build--automation)
+- [Documentation](#documentation)
+- [Secrets & Security](#secrets--security)
+- [Logging & Diagnostics](#logging--diagnostics)
+- [Shell Experience](#shell-experience)
+- [Databases](#databases)
+- [Cloud & Virtualization](#cloud--virtualization)
+- [Networking](#networking)
+- [Reporting & Data Export](#reporting--data-export)
+- [Parallelization](#parallelization)
+- [Packaging & Deployment](#packaging--deployment)
+
+## Package & Dependency Management
+
+- [PowerShellGet](https://github.com/PowerShell/PowerShellGet#readme) - Package manager for discovering, installing, and publishing PowerShell modules and scripts.
+- [PSResourceGet](https://github.com/PowerShell/PSResourceGet#readme) - Next-generation package manager for PowerShell modules, scripts, and DSC resources.
+- [ModuleFast](https://github.com/JustinGrote/ModuleFast#readme) - Rapid, parallelized module installer for PowerShell.
+- [PSDepend](https://github.com/PowerShellOrg/PSDepend#readme) - Declarative dependency handler for PowerShell projects.
+
+## Testing & Code Quality
+
+- [Pester](https://github.com/pester/Pester#readme) - BDD-style test and mocking framework for PowerShell.
+- [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer#readme) - Static analysis tool that checks PowerShell code against a set of best-practice rules.
+
+## Build & Automation
+
+- [psake](https://github.com/psake/psake#readme) - Build automation tool for defining and running build tasks in PowerShell.
+- [Invoke-Build](https://github.com/nightroman/Invoke-Build#readme) - Build and test automation tool with a task-based scripting model.
+- [PowerShellBuild](https://github.com/psake/PowerShellBuild#readme) - Common build, test, and packaging tasks for PowerShell module projects.
+- [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder#readme) - Compiles multiple source files into a single PowerShell module for distribution.
+
+## Documentation
+
+- [platyPS](https://github.com/PowerShell/platyPS#readme) - Generates external help files and Markdown documentation from comment-based help.
+- [PSDocs](https://github.com/microsoft/PSDocs#readme) - Generates Markdown documentation from objects using a domain-specific language.
+
+## Secrets & Security
+
+- [SecretManagement](https://github.com/PowerShell/SecretManagement#readme) - Provides a consistent interface for storing and retrieving secrets across different vaults.
+- [SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
+- [PSPKI](https://github.com/Crypt32/PSPKI#readme) - Manages Active Directory Certificate Services and X.509 certificates.
+- [PoShKeePass](https://github.com/PSKeePass/PoShKeePass#readme) - Manages KeePass databases, entries, and groups.
+
+## Logging & Diagnostics
+
+- [PSFramework](https://github.com/PowershellFrameworkCollective/PSFramework#readme) - Configuration, logging, and runtime framework for building robust PowerShell tooling.
+
+## Shell Experience
+
+- [PSReadLine](https://github.com/PowerShell/PSReadLine#readme) - Provides syntax highlighting, history search, and improved command-line editing.
+- [posh-git](https://github.com/dahlbyk/posh-git#readme) - Integrates Git status and tab completion into the PowerShell prompt.
+- [Terminal-Icons](https://github.com/devblackops/Terminal-Icons#readme) - Adds file and folder icons to directory listings based on file type.
+- [PSFzf](https://github.com/kelleyma49/PSFzf#readme) - Integrates the fzf fuzzy finder with command history and tab completion.
+- [ConsoleGuiTools](https://github.com/PowerShell/ConsoleGuiTools#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
+
+## Databases
+
+- [dbatools](https://github.com/dataplat/dbatools#readme) - Automates SQL Server instance migration, administration, and best-practice checks.
+- [SqlServer](https://www.powershellgallery.com/packages/SqlServer) - Official module for querying and managing SQL Server instances and databases.
+
+## Cloud & Virtualization
+
+- [Az](https://github.com/Azure/azure-powershell#readme) - Manages Azure resources, from virtual machines to storage accounts, via cmdlets.
+- [AWS Tools for PowerShell](https://github.com/aws/aws-tools-for-powershell#readme) - Manages AWS services and resources directly from PowerShell.
+- [VMware PowerCLI](https://www.powershellgallery.com/packages/VMware.PowerCLI) - Automates vSphere, vSAN, and NSX administration tasks.
+
+## Networking
+
+- [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
+
+## Reporting & Data Export
+
+- [ImportExcel](https://github.com/dfinke/ImportExcel#readme) - Reads and writes Excel files without requiring Excel to be installed.
+- [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML#readme) - Builds interactive HTML reports, dashboards, and charts.
+- [PSWriteWord](https://github.com/EvotecIT/PSWriteWord#readme) - Creates and edits Word documents without requiring Word to be installed.
+- [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
+
+## Parallelization
+
+- [PoshRSJob](https://github.com/proxb/PoshRSJob#readme) - Runs script blocks in parallel using runspaces instead of background jobs.
+- [ThreadJob](https://github.com/PowerShell/ThreadJob#readme) - Runs background jobs in lightweight threads within the same process.
+
+## Packaging & Deployment
+
+- [PS2EXE](https://github.com/MScholtes/PS2EXE#readme) - Compiles PowerShell scripts into standalone Windows executables.
+
+## Contributing
+
+Contributions welcome! Read the [contribution guidelines](contributing.md) first.
