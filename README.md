@@ -130,6 +130,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PSTeams](https://github.com/EvotecIT/PSTeams#readme) - Sends formatted adaptive card messages to Microsoft Teams channels.
 - [Mailozaurr](https://github.com/EvotecIT/Mailozaurr#readme) - Sends and receives email over SMTP, IMAP, and POP3.
 - [PSOpenAI](https://github.com/mkht/PSOpenAI#readme) - Wraps the OpenAI API for use in PowerShell scripts.
+- [PSAI](https://github.com/dfinke/PSAI#readme) - Framework for building and orchestrating multi-agent AI systems in PowerShell.
 - [PSPushover](https://github.com/joshooaj/PSPushover#readme) - Sends push notifications through the Pushover service.
 
 ## Reporting & Data Export
