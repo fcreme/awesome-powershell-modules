@@ -127,6 +127,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 
 - [XKCD](https://github.com/markwragg/Powershell-XKCD#readme) - Fetches, searches, and displays comics from the XKCD webcomic.
 - [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
+- [PSPodcast](https://github.com/jdhitsolutions/PSPodcast#readme) - Gets and displays episode information for The PowerShell Podcast.
 
 ## Contributing
 
