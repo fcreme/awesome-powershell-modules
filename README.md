@@ -170,6 +170,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [CurrencyConverter](https://github.com/markwragg/PowerShell-CurrencyConverter#readme) - Converts and reports on currency exchange rates.
 - [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
 - [TOPdeskPS](https://github.com/AndrewPla/TOPdeskPS/tree/master#readme) - Interacts with the TOPdesk IT service management API.
+- [ServiceNow](https://github.com/Snow-Shell/servicenow-powershell#readme) - Automates ServiceNow service and asset management.
 
 ## Reporting & Data Export
 
