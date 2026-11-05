@@ -84,6 +84,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PoshColor](https://github.com/JustABearOz/PoshColor#readme) - Colorizes the output of common commands with support for custom themes.
 - [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
 - [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui.
+- [PSparklines](https://github.com/endowdly/PSparklines#readme) - Renders sparkline charts directly in the console.
 
 ## Databases
 
@@ -142,6 +143,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
 - [PSWritePDF](https://github.com/EvotecIT/PSWritePDF#readme) - Creates, edits, splits, and merges PDF files.
 - [powershell-yaml](https://github.com/cloudbase/powershell-yaml#readme) - Converts between YAML and PowerShell objects.
+- [PSMarkdown](https://github.com/ishu3101/PSMarkdown#readme) - Converts PowerShell objects to and from Markdown tables.
 
 ## Parallelization
 
