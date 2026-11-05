@@ -12,6 +12,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Testing & Code Quality](#testing--code-quality)
 - [Build & Automation](#build--automation)
 - [Documentation](#documentation)
+- [Development Tools](#development-tools)
 - [Secrets & Security](#secrets--security)
 - [Logging & Diagnostics](#logging--diagnostics)
 - [Shell Experience](#shell-experience)
@@ -33,7 +34,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Microsoft.PowerShell.PSResourceGet](https://github.com/PowerShell/PSResourceGet#readme) - Next-generation package manager for PowerShell modules, scripts, and DSC resources.
 - [ModuleFast](https://github.com/JustinGrote/ModuleFast#readme) - Rapid, parallelized module installer for PowerShell.
 - [PSDepend](https://github.com/PowerShellOrg/PSDepend#readme) - Declarative dependency handler for PowerShell projects.
-- [PSGalleryExplorer](https://github.com/techthoughts2/PSGalleryExplorer#readme) - Searches, explores, and discovers modules on the PowerShell Gallery.
 
 ## Testing & Code Quality
 
@@ -50,13 +50,26 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder#readme) - Compiles multiple source files into a single PowerShell module for distribution.
 - [Plaster](https://github.com/PowerShellOrg/Plaster#readme) - Scaffolds new PowerShell modules, scripts, and files from templates.
 - [Catesta](https://github.com/techthoughts2/Catesta#readme) - Scaffolds PowerShell module projects with CI/CD pipelines for multiple platforms.
-- [PSModuleDevelopment](https://github.com/PowershellFrameworkCollective/PSModuleDevelopment#readme) - Provides templates and tooling for scaffolding new PowerShell modules.
+- [PSModuleDevelopment](https://github.com/PowershellFrameworkCollective/PSModuleDevelopment/tree/master#readme) - Provides templates and tooling for scaffolding new PowerShell modules.
 - [Microsoft.PowerShell.Crescendo](https://github.com/PowerShell/Crescendo#readme) - Wraps native command-line applications in PowerShell functions and modules.
 
 ## Documentation
 
 - [platyPS](https://github.com/PowerShell/platyPS#readme) - Generates external help files and Markdown documentation from comment-based help.
 - [PSDocs](https://github.com/microsoft/PSDocs#readme) - Generates Markdown documentation from objects using a domain-specific language.
+
+## Development Tools
+
+- [PSGalleryExplorer](https://github.com/techthoughts2/PSGalleryExplorer#readme) - Searches, explores, and discovers modules on the PowerShell Gallery.
+- [ClassExplorer](https://github.com/SeeminglyScience/ClassExplorer#readme) - Searches loaded .NET assemblies for types and members matching a query.
+- [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui.
+- [ugit](https://github.com/StartAutomating/ugit#readme) - Extends and automates Git, including multi-repository workflows, with PowerShell objects.
+- [PowerLine](https://github.com/Jaykul/PowerLine#readme) - Provides classes for building richer, multi-line prompts and console output.
+- [PoshColor](https://github.com/JustABearOz/PoshColor#readme) - Colorizes the output of common commands with support for custom themes.
+- [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole/tree/main#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
+- [PSparklines](https://github.com/endowdly/PSparklines#readme) - Renders sparkline charts directly in the console.
+- [PSQR](https://github.com/jakehildreth/psqr#readme) - Generates QR codes directly in the terminal.
+- [Graphical](https://github.com/PrateekKumarSingh/graphical#readme) - Plots scatter, bar, and line graphs directly in the console.
 
 ## Secrets & Security
 
@@ -69,12 +82,16 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Maester](https://github.com/maester365/maester#readme) - Test automation framework for monitoring Microsoft security configuration.
 - [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
 - [JEAnalyzer](https://github.com/PSSecTools/JEAnalyzer#readme) - Converts scripts and script blocks into Just Enough Administration role capability files.
+- [HAWK](https://github.com/T0pCyber/hawk#readme) - Gathers forensic data for investigating Microsoft 365 account compromises.
+- [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode signing and verification.
+- [AzureADAssessment](https://github.com/AzureAD/AzureADAssessment#readme) - Assesses the configuration and security posture of an Azure AD tenant.
 
 ## Logging & Diagnostics
 
-- [PSFramework](https://github.com/PowershellFrameworkCollective/PSFramework#readme) - Configuration, logging, and runtime framework for building robust PowerShell tooling.
+- [PSFramework](https://github.com/PowershellFrameworkCollective/PSFramework/tree/master#readme) - Configuration, logging, and runtime framework for building robust PowerShell tooling.
 - [PoShLog](https://github.com/PoShLog/PoShLog#readme) - Cross-platform logging module built on Serilog.
 - [PSProfiler](https://github.com/IISResetMe/PSProfiler#readme) - Measures the execution time of individual statements within a script.
+- [PSEtw](https://github.com/jborean93/PSEtw#readme) - Consumes and processes Event Tracing for Windows (ETW) events.
 
 ## Shell Experience
 
@@ -82,28 +99,26 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [posh-git](https://github.com/dahlbyk/posh-git#readme) - Integrates Git status and tab completion into the PowerShell prompt.
 - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons#readme) - Adds file and folder icons to directory listings based on file type.
 - [PSFzf](https://github.com/kelleyma49/PSFzf#readme) - Integrates the fzf fuzzy finder with command history and tab completion.
+- [PowerShellRun](https://github.com/mdgrs-mei/PowerShellRun#readme) - Terminal-based launcher and fuzzy finder for PowerShell.
 - [Microsoft.PowerShell.ConsoleGuiTools](https://github.com/PowerShell/ConsoleGuiTools#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
-- [PowerLine](https://github.com/Jaykul/PowerLine#readme) - Provides classes for building richer, multi-line prompts and console output.
-- [PoshColor](https://github.com/JustABearOz/PoshColor#readme) - Colorizes the output of common commands with support for custom themes.
-- [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
-- [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui.
-- [PSparklines](https://github.com/endowdly/PSparklines#readme) - Renders sparkline charts directly in the console.
-- [PSQR](https://github.com/jakehildreth/psqr#readme) - Generates QR codes directly in the terminal.
 - [Watch](https://github.com/markwragg/Powershell-Watch#readme) - Repeatedly runs a command or script block and returns output only when it changes.
+- [PSPreworkout](https://github.com/samerde/PSPreWorkout#readme) - Collection of tools for warming up and customizing a PowerShell session.
 
 ## Databases
 
-- [dbatools](https://github.com/dataplat/dbatools#readme) - Automates SQL Server instance migration, administration, and best-practice checks.
+- [dbatools](https://github.com/dataplat/dbatools/tree/master#readme) - Automates SQL Server instance migration, administration, and best-practice checks.
 - [SqlServer](https://www.powershellgallery.com/packages/SqlServer) - Official module for querying and managing SQL Server instances and databases.
 - [SimplySql](https://github.com/mithrandyr/SimplySql#readme) - Provides a vendor-agnostic set of cmdlets for connecting to and querying databases.
 - [Influx](https://github.com/markwragg/PowerShell-Influx#readme) - Writes and queries data in the InfluxDB time-series database.
+- [Mdbc](https://github.com/nightroman/Mdbc#readme) - Provides cmdlets for working with MongoDB.
 
 ## Cloud & Virtualization
 
 - [Az](https://github.com/Azure/azure-powershell#readme) - Manages Azure resources, from virtual machines to storage accounts, via cmdlets.
 - [AWS Tools for PowerShell](https://github.com/aws/aws-tools-for-powershell#readme) - Manages AWS services and resources directly from PowerShell.
 - [VMware.PowerCLI](https://www.powershellgallery.com/packages/VMware.PowerCLI) - Automates vSphere, vSAN, and NSX administration tasks.
-- [PnP.PowerShell](https://github.com/pnp/powershell#readme) - Manages SharePoint Online and Microsoft 365 through PnP cmdlets.
+- [AzViz](https://github.com/PrateekKumarSingh/AzViz#readme) - Generates visual topology diagrams of Azure resource groups.
+- [PnP.PowerShell](https://github.com/pnp/powershell/tree/main#readme) - Manages SharePoint Online and Microsoft 365 through PnP cmdlets.
 - [Microsoft.Entra](https://github.com/microsoftgraph/entra-powershell#readme) - Official module for managing Microsoft Entra ID resources such as users, groups, and applications.
 - [AzAuth](https://github.com/PalmEmanuel/AzAuth#readme) - Handles Azure authentication and token acquisition for PowerShell scripts and modules.
 - [AzCostTools](https://github.com/markwragg/PowerShell-AzCostTools#readme) - Provides cmdlets for analyzing and reporting on Azure cost data.
@@ -113,10 +128,14 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSWindowsUpdate](https://github.com/mgajda83/PSWindowsUpdate#readme) - Manages and installs Windows Update packages from the command line.
 - [GPOZaurr](https://github.com/EvotecIT/GPOZaurr#readme) - Finds and fixes common Group Policy misconfigurations.
 - [kbupdate](https://github.com/potatoqualitee/kbupdate#readme) - Views, saves, installs, and uninstalls Windows update packages.
-- [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
+- [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab/tree/master#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
 - [PSOpenAD](https://github.com/jborean93/PSOpenAD#readme) - Cross-platform alternative to the Microsoft Active Directory module.
 - [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo#readme) - Finds and fixes common misconfigurations in Active Directory-integrated DNS.
 - [ADMF](https://github.com/ActiveDirectoryManagementFramework/ADMF#readme) - Manages Active Directory configuration as declarative, version-controlled contexts.
+- [DSInternals](https://github.com/michaelgrafnetter/DSInternals#readme) - Audits and extracts secrets from Active Directory databases and backups for security research.
+- [Evergreen](https://github.com/EUCPilots/evergreen-module#readme) - Returns the latest version numbers and download URLs for common third-party applications.
+- [ADSec](https://github.com/PSSecTools/ADSec#readme) - Provides tools for assessing and hardening Active Directory security.
+- [GPOTools](https://github.com/FriedrichWeinmann/GPOTools/tree/master#readme) - Provides tools for managing and auditing Group Policy Objects.
 
 ## Networking
 
@@ -126,7 +145,8 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Web Servers & APIs
 
-- [Pode](https://github.com/Badgerati/Pode#readme) - Cross-platform framework for building web servers, REST APIs, and SMTP/TCP servers.
+- [Pode](https://github.com/Badgerati/Pode/tree/master#readme) - Cross-platform framework for building web servers, REST APIs, and SMTP/TCP servers.
+- [Pode.Web](https://github.com/Badgerati/Pode.Web/tree/master#readme) - Web template framework for building front-ends on top of Pode.
 - [Polaris](https://github.com/PowerShell/Polaris#readme) - Minimalist, cross-platform web framework for building HTTP APIs.
 
 ## SaaS Integrations
@@ -141,6 +161,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSPushover](https://github.com/joshooaj/PSPushover#readme) - Sends push notifications through the Pushover service.
 - [PowerTrello](https://github.com/adbertram/PowerTrello#readme) - Manages Trello boards, lists, and cards via the Trello API.
 - [CurrencyConverter](https://github.com/markwragg/PowerShell-CurrencyConverter#readme) - Converts and reports on currency exchange rates.
+- [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
 
 ## Reporting & Data Export
 
@@ -151,6 +172,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSWritePDF](https://github.com/EvotecIT/PSWritePDF#readme) - Creates, edits, splits, and merges PDF files.
 - [powershell-yaml](https://github.com/cloudbase/powershell-yaml#readme) - Converts between YAML and PowerShell objects.
 - [PSMarkdown](https://github.com/ishu3101/PSMarkdown#readme) - Converts PowerShell objects to and from Markdown tables.
+- [PSHTML](https://github.com/stephanevg/PSHTML#readme) - Generates HTML markup using a PowerShell-based DSL.
 
 ## Parallelization
 
@@ -163,6 +185,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSAppDeployToolkit](https://github.com/psappdeploytoolkit/PSAppDeployToolkit#readme) - Standardizes application deployment, detection, and uninstallation for Windows.
 - [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser#readme) - Runs scripts as the logged-on user while executing under the SYSTEM account.
 - [IntuneHydrationKit](https://github.com/jorgeasaurus/IntuneHydrationKit#readme) - Imports a set of starter configuration baselines into Microsoft Intune.
+- [Invoke-CommandAs](https://github.com/mkellerman/Invoke-CommandAs#readme) - Runs commands as System, a GMSA, or another user on local or remote machines.
 
 ## Productivity
 
@@ -170,6 +193,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSCalendar](https://github.com/jdhitsolutions/PSCalendar#readme) - Displays calendars in the console.
 - [Lumos](https://github.com/markwragg/powershell-lumos#readme) - Switches Windows, macOS, and Linux between light and dark themes depending on the time of day.
 - [HashCopy](https://github.com/markwragg/Powershell-HashCopy#readme) - Copies and compares files between two paths based on computed hash values rather than modified dates.
+- [AudioDeviceCmdlets](https://github.com/frgnca/AudioDeviceCmdlets#readme) - Lists and controls audio playback and recording devices on Windows.
 
 ## Learning
 
@@ -180,9 +204,9 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Fun & Novelty
 
 - [XKCD](https://github.com/markwragg/Powershell-XKCD#readme) - Fetches, searches, and displays comics from the XKCD webcomic.
-- [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
 - [PSPodcast](https://github.com/jdhitsolutions/PSPodcast#readme) - Gets and displays episode information for The PowerShell Podcast.
 - [PSBluesky](https://github.com/jdhitsolutions/PSBluesky#readme) - Posts, views, and manages your feed and timeline on Bluesky.
+- [pwshPlaces](https://github.com/techthoughts2/PwshPlaces#readme) - Searches for places and points of interest around the globe.
 
 ## Contributing
 

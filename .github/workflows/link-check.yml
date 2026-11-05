@@ -5,12 +5,18 @@ on:
   schedule:
     - cron: "0 0 * * 1"
 jobs:
-  markdown-link-check:
+  lychee:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - name: Restore lychee cache
+        uses: actions/cache@v4
         with:
-          use-quiet-mode: "yes"
-          use-verbose-mode: "yes"
-          config-file: .github/workflows/markdown-links-config.json
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --cache --max-cache-age 1d README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
