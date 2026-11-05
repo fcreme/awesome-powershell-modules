@@ -121,6 +121,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 
 - [PS2EXE](https://github.com/MScholtes/PS2EXE#readme) - Compiles PowerShell scripts into standalone Windows executables.
 - [PSAppDeployToolkit](https://github.com/psappdeploytoolkit/PSAppDeployToolkit#readme) - Standardizes application deployment, detection, and uninstallation for Windows.
+- [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser#readme) - Runs scripts as the logged-on user while executing under the SYSTEM account.
 
 ## Fun & Novelty
 
