@@ -1,0 +1,16 @@
+name: Archived Repo Check
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * 1"
+jobs:
+  check-archived:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for archived repositories
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/Test-ArchivedRepos.ps1

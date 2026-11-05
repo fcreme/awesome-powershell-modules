@@ -3,7 +3,8 @@
 Ensure your pull request adheres to the following guidelines:
 
 - Search previous suggestions before making a new one, as yours may be a duplicate.
-- The submitted module should be actively maintained, documented, and available on the [PowerShell Gallery](https://www.powershellgallery.com/) or as a public repository.
+- The submitted module should be actively maintained, documented, and available on the [PowerShell Gallery](https://www.powershellgallery.com/) or as a public repository. See [publishing a module](docs/publishing-a-module.md) if yours isn't published yet.
+- The module must have existed for at least 30 days before submission, to give it a chance to prove it isn't abandoned right after being created.
 - The module must be free and open source. Commercial products, and modules that primarily serve to install or unlock a paid product, are not accepted.
 - Don't submit modules that are archived, deprecated, or have been unmaintained for a long period.
 - If you submit a module that is similar to an existing entry, explain how it's different or better.
@@ -22,4 +23,4 @@ Thank you for your suggestion!
 
 ### Updating your pull request
 
-If a maintainer asks you to make changes to your pull request, [here's a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) on doing that.
+If a maintainer asks you to make changes to your pull request, [here's a guide](docs/amending-a-pull-request.md) on doing that.

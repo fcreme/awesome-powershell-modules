@@ -90,6 +90,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [HAWK](https://github.com/T0pCyber/hawk#readme) - Gathers forensic data for investigating Microsoft 365 account compromises.
 - [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode signing and verification.
 - [AzureADAssessment](https://github.com/AzureAD/AzureADAssessment#readme) - Assesses the configuration and security posture of an Azure AD tenant.
+- [EDCA](https://github.com/michelderooij/EDCA#readme) - Assesses Exchange Server deployment configuration and compliance.
 
 ## Logging & Diagnostics
 
@@ -128,6 +129,10 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Microsoft.Entra](https://github.com/microsoftgraph/entra-powershell#readme) - Official module for managing Microsoft Entra ID resources such as users, groups, and applications.
 - [AzAuth](https://github.com/PalmEmanuel/AzAuth#readme) - Handles Azure authentication and token acquisition for PowerShell scripts and modules.
 - [AzCostTools](https://github.com/markwragg/PowerShell-AzCostTools#readme) - Provides cmdlets for analyzing and reporting on Azure cost data.
+- [Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC#readme) - Manages, configures, extracts, and monitors Microsoft 365 tenant configurations.
+- [Microsoft.Graph](https://github.com/microsoftgraph/msgraph-sdk-powershell#readme) - Official Microsoft Graph SDK for PowerShell, covering Entra ID, Teams, SharePoint, and more.
+- [Bicep](https://github.com/PSBicep/PSBicep#readme) - Compiles, decompiles, and manages Bicep Azure infrastructure-as-code files.
+- [MIAU](https://github.com/HCRitter/MIAU#readme) - Simplifies day-to-day Azure Managed Identity operations.
 
 ## Windows Administration
 
@@ -143,6 +148,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [ADSec](https://github.com/PSSecTools/ADSec#readme) - Provides tools for assessing and hardening Active Directory security.
 - [GPOTools](https://github.com/FriedrichWeinmann/GPOTools/tree/master#readme) - Provides tools for managing and auditing Group Policy Objects.
 - [FindOpenFile](https://github.com/ironmansoftware/findopenfiles#readme) - Finds processes that are holding files open.
+- [TheCleaners](https://github.com/SamErde/TheCleaners#readme) - Cleans up loose ends and leftover artifacts on Windows Servers.
 
 ## Networking
 
@@ -171,6 +177,8 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PoshBot](https://github.com/poshbotio/PoshBot#readme) - ChatOps bot framework for building chat bots in Slack, Microsoft Teams, and Discord.
 - [TOPdeskPS](https://github.com/AndrewPla/TOPdeskPS/tree/master#readme) - Interacts with the TOPdesk IT service management API.
 - [ServiceNow](https://github.com/Snow-Shell/servicenow-powershell#readme) - Automates ServiceNow service and asset management.
+- [AzDOps](https://github.com/AZDOPS/AZDOPS#readme) - Manages Azure DevOps projects, pipelines, and work items.
+- [PSAISuite](https://github.com/dfinke/psaisuite#readme) - Standardized abstraction layer for calling 15+ GenAI providers from PowerShell.
 
 ## Reporting & Data Export
 
