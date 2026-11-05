@@ -15,6 +15,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Shell Experience](#shell-experience)
 - [Databases](#databases)
 - [Cloud & Virtualization](#cloud--virtualization)
+- [Windows Administration](#windows-administration)
 - [Networking](#networking)
 - [Web Servers & APIs](#web-servers--apis)
 - [SaaS Integrations](#saas-integrations)
@@ -46,6 +47,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Plaster](https://github.com/PowerShellOrg/Plaster#readme) - Scaffolds new PowerShell modules, scripts, and files from templates.
 - [Catesta](https://github.com/techthoughts2/Catesta#readme) - Scaffolds PowerShell module projects with CI/CD pipelines for multiple platforms.
 - [PSModuleDevelopment](https://github.com/PowershellFrameworkCollective/PSModuleDevelopment#readme) - Provides templates and tooling for scaffolding new PowerShell modules.
+- [Crescendo](https://github.com/PowerShell/Crescendo#readme) - Wraps native command-line applications in PowerShell functions and modules.
 
 ## Documentation
 
@@ -60,6 +62,10 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PSPKI](https://github.com/Crypt32/PSPKI#readme) - Manages Active Directory Certificate Services and X.509 certificates.
 - [PoShKeePass](https://github.com/PSKeePass/PoShKeePass#readme) - Manages KeePass databases, entries, and groups.
 - [Locksmith](https://github.com/jakehildreth/Locksmith#readme) - Finds and fixes common misconfigurations in Active Directory Certificate Services.
+- [Maester](https://github.com/maester365/maester#readme) - Test automation framework for monitoring Microsoft security configuration.
+- [ScriptSentry](https://github.com/techspence/ScriptSentry#readme) - Finds misconfigured and dangerous logon scripts in Active Directory.
+- [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
+- [JEAnalyzer](https://github.com/PSSecTools/JEAnalyzer#readme) - Converts scripts and script blocks into Just Enough Administration role capability files.
 
 ## Logging & Diagnostics
 
@@ -84,17 +90,33 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [dbatools](https://github.com/dataplat/dbatools#readme) - Automates SQL Server instance migration, administration, and best-practice checks.
 - [SqlServer](https://www.powershellgallery.com/packages/SqlServer) - Official module for querying and managing SQL Server instances and databases.
 - [SimplySql](https://github.com/mithrandyr/SimplySql#readme) - Provides a vendor-agnostic set of cmdlets for connecting to and querying databases.
+- [PowerShell-Influx](https://github.com/markwragg/PowerShell-Influx#readme) - Writes and queries data in the InfluxDB time-series database.
 
 ## Cloud & Virtualization
 
 - [Az](https://github.com/Azure/azure-powershell#readme) - Manages Azure resources, from virtual machines to storage accounts, via cmdlets.
 - [AWS Tools for PowerShell](https://github.com/aws/aws-tools-for-powershell#readme) - Manages AWS services and resources directly from PowerShell.
 - [VMware PowerCLI](https://www.powershellgallery.com/packages/VMware.PowerCLI) - Automates vSphere, vSAN, and NSX administration tasks.
+- [PnP PowerShell](https://github.com/pnp/powershell#readme) - Manages SharePoint Online and Microsoft 365 through PnP cmdlets.
+- [Entra PowerShell](https://github.com/microsoftgraph/entra-powershell#readme) - Official module for managing Microsoft Entra ID resources such as users, groups, and applications.
+- [AzAuth](https://github.com/PalmEmanuel/AzAuth#readme) - Handles Azure authentication and token acquisition for PowerShell scripts and modules.
+- [PowerShell-AzCostTools](https://github.com/markwragg/PowerShell-AzCostTools#readme) - Provides cmdlets for analyzing and reporting on Azure cost data.
+
+## Windows Administration
+
+- [PSWindowsUpdate](https://github.com/mgajda83/PSWindowsUpdate#readme) - Manages and installs Windows Update packages from the command line.
+- [GPOZaurr](https://github.com/EvotecIT/GPOZaurr#readme) - Finds and fixes common Group Policy misconfigurations.
+- [kbupdate](https://github.com/potatoqualitee/kbupdate#readme) - Views, saves, installs, and uninstalls Windows update packages.
+- [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
+- [PSOpenAD](https://github.com/jborean93/PSOpenAD#readme) - Cross-platform alternative to the Microsoft Active Directory module.
+- [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo#readme) - Finds and fixes common misconfigurations in Active Directory-integrated DNS.
+- [ADMF](https://github.com/ActiveDirectoryManagementFramework/ADMF#readme) - Manages Active Directory configuration as declarative, version-controlled contexts.
 
 ## Networking
 
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
 - [Subnet](https://github.com/markwragg/PowerShell-Subnet#readme) - Performs subnet calculations such as CIDR conversion, host ranges, and address overlap checks.
+- [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol#readme) - Captures and parses CDP and LLDP packets to discover neighboring network devices.
 
 ## Web Servers & APIs
 
@@ -106,6 +128,9 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [JiraPS](https://github.com/AtlassianPS/JiraPS#readme) - Manages Jira issues, projects, and workflows via the Jira REST API.
 - [ConfluencePS](https://github.com/AtlassianPS/ConfluencePS#readme) - Manages Confluence pages and spaces via the Confluence REST API.
 - [PSTeams](https://github.com/EvotecIT/PSTeams#readme) - Sends formatted adaptive card messages to Microsoft Teams channels.
+- [Mailozaurr](https://github.com/EvotecIT/Mailozaurr#readme) - Sends and receives email over SMTP, IMAP, and POP3.
+- [PSOpenAI](https://github.com/mkht/PSOpenAI#readme) - Wraps the OpenAI API for use in PowerShell scripts.
+- [PSPushover](https://github.com/joshooaj/PSPushover#readme) - Sends push notifications through the Pushover service.
 
 ## Reporting & Data Export
 
@@ -126,6 +151,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [PS2EXE](https://github.com/MScholtes/PS2EXE#readme) - Compiles PowerShell scripts into standalone Windows executables.
 - [PSAppDeployToolkit](https://github.com/psappdeploytoolkit/PSAppDeployToolkit#readme) - Standardizes application deployment, detection, and uninstallation for Windows.
 - [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser#readme) - Runs scripts as the logged-on user while executing under the SYSTEM account.
+- [IntuneHydrationKit](https://github.com/jorgeasaurus/IntuneHydrationKit#readme) - Imports a set of starter configuration baselines into Microsoft Intune.
 
 ## Productivity
 
