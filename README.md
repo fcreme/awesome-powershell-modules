@@ -90,6 +90,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 ## Networking
 
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
+- [Subnet](https://github.com/markwragg/PowerShell-Subnet#readme) - Performs subnet calculations such as CIDR conversion, host ranges, and address overlap checks.
 
 ## Web Servers & APIs
 
