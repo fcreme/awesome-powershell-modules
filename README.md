@@ -22,6 +22,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Parallelization](#parallelization)
 - [Packaging & Deployment](#packaging--deployment)
 - [Productivity](#productivity)
+- [Learning](#learning)
 - [Fun & Novelty](#fun--novelty)
 
 ## Package & Dependency Management
@@ -35,7 +36,6 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 - [Pester](https://github.com/pester/Pester#readme) - BDD-style test and mocking framework for PowerShell.
 - [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer#readme) - Static analysis tool that checks PowerShell code against a set of best-practice rules.
 - [Selenium](https://github.com/adamdriscoll/selenium-powershell#readme) - Automates web browsers using the Selenium WebDriver.
-- [PSKoans](https://github.com/PowerShellOrg/PSKoans#readme) - Teaches the PowerShell language through a series of Pester-based coding exercises.
 
 ## Build & Automation
 
@@ -130,6 +130,11 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 ## Productivity
 
 - [PSWorkItem](https://github.com/jdhitsolutions/PSWorkItem#readme) - Manages personal tasks and to-do items backed by a local SQLite database.
+
+## Learning
+
+- [PSKoans](https://github.com/PowerShellOrg/PSKoans#readme) - Teaches the PowerShell language through a series of Pester-based coding exercises.
+- [tiPS](https://github.com/deadlydog/PowerShell.tiPS#readme) - Delivers PowerShell tips and tricks directly to your terminal on a schedule.
 
 ## Fun & Novelty
 
