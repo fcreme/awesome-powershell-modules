@@ -54,6 +54,7 @@ PowerShell modules package up cmdlets, functions, and resources so they can be i
 
 - [SecretManagement](https://github.com/PowerShell/SecretManagement#readme) - Provides a consistent interface for storing and retrieving secrets across different vaults.
 - [SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
+- [SecretManagement.DpapiNG](https://github.com/jborean93/SecretManagement.DpapiNG#readme) - SecretManagement vault extension that protects secrets using Windows DPAPI-NG.
 - [PSPKI](https://github.com/Crypt32/PSPKI#readme) - Manages Active Directory Certificate Services and X.509 certificates.
 - [PoShKeePass](https://github.com/PSKeePass/PoShKeePass#readme) - Manages KeePass databases, entries, and groups.
 - [Locksmith](https://github.com/jakehildreth/Locksmith#readme) - Finds and fixes common misconfigurations in Active Directory Certificate Services.
