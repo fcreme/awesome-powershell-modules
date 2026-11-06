@@ -71,6 +71,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSparklines](https://github.com/endowdly/PSparklines#readme) - Renders sparkline charts directly in the console.
 - [PSQR](https://github.com/jakehildreth/psqr#readme) - Generates QR codes directly in the terminal, by wrapping the [qrencode](https://github.com/fukuchi/libqrencode) utility.
 - [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui, primarily intended as examples and reference material.
+- [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
 - [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole/tree/main#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
 - [ugit](https://github.com/StartAutomating/ugit#readme) - (Updated Git) extends and automates Git by converting Git output to PowerShell objects.
 
@@ -173,7 +174,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSAI](https://github.com/dfinke/PSAI#readme) - Framework for building and orchestrating multi-agent AI systems in PowerShell.
 - [PSAISuite](https://github.com/dfinke/psaisuite#readme) - Standardized abstraction layer for calling 15+ GenAI providers from PowerShell.
 - [PSOpenAI](https://github.com/mkht/PSOpenAI#readme) - Wraps the OpenAI API for use in PowerShell scripts.
-- [PSPushover](https://github.com/joshooaj/PSPushover#readme) - Sends push notifications through the Pushover service.
+- [PSPushover](https://github.com/joshooaj/PSPushover#readme) - Sends push notifications through the [Pushover](https://pushover.net/) service.
 - [PSTeams](https://github.com/EvotecIT/PSTeams#readme) - Sends formatted adaptive card messages to Microsoft Teams channels.
 - [ServiceNow](https://github.com/Snow-Shell/servicenow-powershell#readme) - Automates ServiceNow service and asset management.
 - [TOPdeskPS](https://github.com/AndrewPla/TOPdeskPS/tree/master#readme) - Interacts with the TOPdesk IT service management API.
@@ -185,7 +186,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [powershell-yaml](https://github.com/cloudbase/powershell-yaml#readme) - Converts between YAML and PowerShell objects.
 - [PSHTML](https://github.com/stephanevg/PSHTML#readme) - Generates HTML markup using a PowerShell-based DSL.
 - [PSMarkdown](https://github.com/ishu3101/PSMarkdown#readme) - Converts PowerShell objects to and from Markdown tables.
-- [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
 - [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML#readme) - Builds interactive HTML reports, dashboards, and charts.
 - [PSWriteOffice](https://github.com/EvotecIT/OfficeIMO/tree/master/PowerShell/PSWriteOffice#readme) - Creates and edits Word, Excel, PowerPoint, and PDF documents without requiring Microsoft Office.
 
