@@ -13,7 +13,7 @@ Ensure your pull request adheres to the following guidelines:
 - Keep descriptions short, objective, and factual rather than marketing language.
 - Start the description with a capital letter and end it with a period.
 - Don't start the description with `A` or `An`.
-- Additions should be added to the bottom of the relevant category.
+- Entries within each category are sorted alphabetically by module name. Insert your addition in alphabetical order rather than at the bottom.
 - New categories or improvements to the existing categorization are welcome, but should be done in a separate pull request.
 - Check your spelling and grammar.
 - Make an individual pull request for each suggestion.
