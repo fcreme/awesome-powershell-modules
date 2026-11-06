@@ -212,6 +212,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [AudioDeviceCmdlets](https://github.com/frgnca/AudioDeviceCmdlets#readme) - Lists and controls audio playback and recording devices on Windows.
 - [HashCopy](https://github.com/markwragg/Powershell-HashCopy#readme) - Copies and compares files between two paths based on computed hash values rather than modified dates.
 - [Lumos](https://github.com/markwragg/powershell-lumos#readme) - Switches Windows, macOS, and Linux between light and dark themes depending on the time of day.
+- [PSBluesky](https://github.com/jdhitsolutions/PSBluesky#readme) - Posts, views, and manages your feed and timeline on Bluesky.
 - [PSCalendar](https://github.com/jdhitsolutions/PSCalendar#readme) - Displays calendars in the console.
 - [PSCommander](https://github.com/ironmansoftware/pscommander#readme) - Wires up desktop integrations such as hotkeys, tray icons, and scheduled tasks to PowerShell script blocks.
 - [PSWorkItem](https://github.com/jdhitsolutions/PSWorkItem#readme) - Manages personal tasks and to-do items backed by a local SQLite database.
@@ -225,7 +226,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Fun & Novelty
 
-- [PSBluesky](https://github.com/jdhitsolutions/PSBluesky#readme) - Posts, views, and manages your feed and timeline on Bluesky.
 - [PSPodcast](https://github.com/jdhitsolutions/PSPodcast#readme) - Gets and displays episode information for The PowerShell Podcast.
 - [pwshPlaces](https://github.com/techthoughts2/PwshPlaces#readme) - Searches for places and points of interest around the globe.
 - [XKCD](https://github.com/markwragg/Powershell-XKCD#readme) - Fetches, searches, and displays comics from the XKCD webcomic.
