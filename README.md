@@ -137,7 +137,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Microsoft.Graph](https://github.com/microsoftgraph/msgraph-sdk-powershell#readme) - Official Microsoft Graph SDK for PowerShell, covering Entra ID, Teams, SharePoint, and more.
 - [Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC#readme) - Manages, configures, extracts, and monitors Microsoft 365 tenant configurations.
 - [PnP.PowerShell](https://github.com/pnp/powershell/tree/main#readme) - Manages SharePoint Online and Microsoft 365 through PnP cmdlets.
-- [VMware.PowerCLI](https://www.powershellgallery.com/packages/VMware.PowerCLI) - Automates vSphere, vSAN, and NSX administration tasks.
+- [VCF.PowerCLI](https://www.powershellgallery.com/packages/VCF.PowerCLI) - Automates vSphere, vSAN, and NSX administration tasks.
 
 ## Windows Administration
 
@@ -209,7 +209,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Desktop & Personal Utilities
 
-- [AudioDeviceCmdlets](https://github.com/frgnca/AudioDeviceCmdlets#readme) - Lists and controls audio playback and recording devices on Windows.
 - [HashCopy](https://github.com/markwragg/Powershell-HashCopy#readme) - Copies and compares files between two paths based on computed hash values rather than modified dates.
 - [Lumos](https://github.com/markwragg/powershell-lumos#readme) - Switches Windows, macOS, and Linux between light and dark themes depending on the time of day.
 - [PSBluesky](https://github.com/jdhitsolutions/PSBluesky#readme) - Posts, views, and manages your feed and timeline on Bluesky.
