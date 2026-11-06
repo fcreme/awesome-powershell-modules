@@ -91,9 +91,11 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Microsoft.PowerShell.SecretManagement](https://github.com/PowerShell/SecretManagement#readme) - Provides a consistent interface for storing and retrieving secrets across different vaults.
 - [Microsoft.PowerShell.SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
 - [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode for code signing and verification.
+- [PSPGP](https://github.com/EvotecIT/PSPGP#readme) - Encrypts, decrypts, signs, and verifies files and strings using PGP.
 - [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
 - [SecretManagement.DpapiNG](https://github.com/jborean93/SecretManagement.DpapiNG#readme) - SecretManagement vault extension that protects secrets using Windows DPAPI-NG.
 - [SecretManagement.KeePass](https://github.com/JustinGrote/SecretManagement.KeePass#readme) - SecretManagement vault extension for KeePass databases.
+- [SecurityPolicy](https://github.com/EvotecIT/SecurityPolicy#readme) - Configures local security policy user rights assignments without using secedit.exe.
 
 ## Logging & Diagnostics
 
@@ -141,6 +143,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Windows Administration
 
+- [ADEssentials](https://github.com/EvotecIT/ADEssentials#readme) - Diagnoses everyday Active Directory issues such as duplicate DNS records, LDAPS certificate problems, and trust health.
 - [ADMF](https://github.com/ActiveDirectoryManagementFramework/ADMF#readme) - Manages Active Directory configuration as declarative, version-controlled contexts.
 - [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab/tree/master#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
 - [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo#readme) - Finds and fixes common misconfigurations in Active Directory-integrated DNS.
@@ -160,6 +163,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
 - [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol#readme) - Captures and parses CDP and LLDP packets to discover neighbouring network devices.
 - [Subnet](https://github.com/markwragg/PowerShell-Subnet#readme) - Performs subnet calculations such as CIDR conversion, host ranges, and address overlap checks.
+- [Transferetto](https://github.com/EvotecIT/Transferetto#readme) - Transfers files and objects across FTP, SFTP, SCP, S3-compatible storage, and Azure Blob Storage through a unified interface.
 
 ## Web Servers & APIs
 
@@ -186,10 +190,12 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Reporting & Data Conversion
 
+- [ImagePlayground](https://github.com/EvotecIT/ImagePlayground#readme) - Processes images and generates charts, diagrams, QR codes, and barcodes.
 - [ImportExcel](https://github.com/dfinke/ImportExcel#readme) - Reads and writes Excel files without requiring Excel to be installed.
 - [powershell-yaml](https://github.com/cloudbase/powershell-yaml#readme) - Converts between YAML and PowerShell objects.
 - [PSHTML](https://github.com/stephanevg/PSHTML#readme) - Generates HTML markup using a PowerShell-based DSL.
 - [PSMarkdown](https://github.com/ishu3101/PSMarkdown#readme) - Converts PowerShell objects to and from Markdown tables.
+- [PSParseHTML](https://github.com/EvotecIT/PSParseHTML#readme) - Parses, extracts, and optimizes HTML, CSS, and JavaScript content, including table extraction and browser automation.
 - [PSSVG](https://github.com/StartAutomating/PSSVG#readme) - Generates and animates SVG graphics using a PowerShell-based DSL.
 - [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML#readme) - Builds interactive HTML reports, dashboards, and charts.
 - [PSWriteOffice](https://github.com/EvotecIT/OfficeIMO/tree/master/PowerShell/PSWriteOffice#readme) - Creates and edits Word, Excel, PowerPoint, and PDF documents without requiring Microsoft Office.
@@ -210,8 +216,10 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Desktop & Personal Utilities
 
+- [DesktopManager](https://github.com/EvotecIT/DesktopManager#readme) - Automates Windows desktop tasks including monitor layout, window placement, audio endpoints, and wallpapers.
 - [HashCopy](https://github.com/markwragg/Powershell-HashCopy#readme) - Copies and compares files between two paths based on computed hash values rather than modified dates.
 - [Lumos](https://github.com/markwragg/powershell-lumos#readme) - Switches Windows, macOS, and Linux between light and dark themes depending on the time of day.
+- [PowerBGInfo](https://github.com/EvotecIT/PowerBGInfo#readme) - Generates desktop wallpapers and lock screens displaying system information and status metrics.
 - [PSBluesky](https://github.com/jdhitsolutions/PSBluesky#readme) - Posts, views, and manages your feed and timeline on Bluesky.
 - [PSCalendar](https://github.com/jdhitsolutions/PSCalendar#readme) - Displays calendars in the console.
 - [PSCommander](https://github.com/ironmansoftware/pscommander#readme) - Wires up desktop integrations such as hotkeys, tray icons, and scheduled tasks to PowerShell script blocks.
