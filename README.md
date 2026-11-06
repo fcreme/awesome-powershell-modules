@@ -1,8 +1,8 @@
 # Awesome PowerShell Modules [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome Lint Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/awesome-lint.yml)
-[![Archived Repo Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/archived-check.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/archived-check.yml)
-[![Valid Link Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/link-check.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/link-check.yml)
+[![Lint Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/awesome-lint.yml)
+[![Repo Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/archived-check.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/archived-check.yml)
+[![Link Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/link-check.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/link-check.yml)
 
 > A curated list of awesome PowerShell modules for package management, testing, automation, security, cloud administration, and more.
 
