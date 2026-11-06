@@ -1,4 +1,4 @@
-name: Archived Repo Check
+name: Repo Check
 on:
   push:
     branches: [main]

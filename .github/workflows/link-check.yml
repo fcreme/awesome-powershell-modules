@@ -1,4 +1,4 @@
-name: Valid Link Check
+name: Link Check
 on:
   push:
     branches: [main]
