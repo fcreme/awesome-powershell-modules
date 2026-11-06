@@ -51,7 +51,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [BuildHelpers](https://github.com/PowerShellOrg/BuildHelpers#readme) - Provides helper functions for PowerShell CI/CD pipelines.
 - [Catesta](https://github.com/techthoughts2/Catesta#readme) - Scaffolds PowerShell module projects with CI/CD pipelines for multiple platforms.
 - [InvokeBuild](https://github.com/nightroman/Invoke-Build#readme) - Build and test automation tool with a task-based scripting model.
-- [Microsoft.PowerShell.Crescendo](https://github.com/PowerShell/Crescendo#readme) - Wraps native command-line applications in PowerShell functions and modules.
 - [ModuleBuilder](https://github.com/PoshCode/ModuleBuilder#readme) - Compiles multiple source files into a single PowerShell module for distribution.
 - [Plaster](https://github.com/PowerShellOrg/Plaster#readme) - Scaffolds new PowerShell modules, scripts, and files from templates.
 - [PowerShellBuild](https://github.com/psake/PowerShellBuild#readme) - Common build, test, and packaging tasks for PowerShell module projects.
