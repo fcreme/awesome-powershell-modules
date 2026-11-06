@@ -25,7 +25,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Reporting & Data Export](#reporting--data-export)
 - [Parallelization](#parallelization)
 - [Packaging & Deployment](#packaging--deployment)
-- [Productivity](#productivity)
+- [Desktop & Personal Utilities](#desktop--personal-utilities)
 - [Learning](#learning)
 - [Fun & Novelty](#fun--novelty)
 
@@ -203,7 +203,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSMSI](https://github.com/ironmansoftware/psmsi#readme) - Creates MSI installers using PowerShell.
 - [RunAsUser](https://github.com/KelvinTegelaar/RunAsUser#readme) - Runs scripts as the logged-on user while executing under the SYSTEM account.
 
-## Productivity
+## Desktop & Personal Utilities
 
 - [AudioDeviceCmdlets](https://github.com/frgnca/AudioDeviceCmdlets#readme) - Lists and controls audio playback and recording devices on Windows.
 - [HashCopy](https://github.com/markwragg/Powershell-HashCopy#readme) - Copies and compares files between two paths based on computed hash values rather than modified dates.
