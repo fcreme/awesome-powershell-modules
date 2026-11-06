@@ -237,3 +237,11 @@ Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first
 ## Footnotes
 
 Candidate modules for this list were researched and fact-checked (maintenance status, archival state, actual PowerShell Gallery package names) with AI assistance. Every addition, rejection, and categorization decision was made by a human maintainer.
+
+### Awesome mentioned badge
+
+If you are the maintainer of a module on this list, and would like to showcase your inclusion, you can do so by adding the following badge:
+
+```markdown
+[![Mentioned in Awesome PowerShell Modules](https://awesome.re/mentioned-badge.svg)](https://github.com/markwragg/awesome-powershell-modules#readme)
+```
