@@ -67,6 +67,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Development Tools
 
 - [ClassExplorer](https://github.com/SeeminglyScience/ClassExplorer#readme) - Searches loaded .NET assemblies for types and members matching a query.
+- [ConsoleMonster](https://github.com/EvotecIT/ConsoleMonster#readme) - Renders tables, trees, and panels in the console with no external dependencies.
 - [Graphical](https://github.com/PrateekKumarSingh/graphical#readme) - Plots scatter, bar, and line graphs directly in the console.
 - [PoshColor](https://github.com/JustABearOz/PoshColor#readme) - Colorizes the output of common commands with support for custom themes.
 - [psedit](https://github.com/ironmansoftware/psedit#readme) - Terminal-based text editor for PowerShell, including syntax highlighting for PowerShell, JSON, YAML, XML and Markdown.
@@ -95,12 +96,14 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
 - [SecretManagement.DpapiNG](https://github.com/jborean93/SecretManagement.DpapiNG#readme) - SecretManagement vault extension that protects secrets using Windows DPAPI-NG.
 - [SecretManagement.KeePass](https://github.com/JustinGrote/SecretManagement.KeePass#readme) - SecretManagement vault extension for KeePass databases.
+- [SectigoCertificateManager](https://github.com/EvotecIT/SectigoCertificateManager#readme) - Manages Sectigo SSL/TLS certificate lifecycle operations including issuance, renewal, and revocation.
 - [SecurityPolicy](https://github.com/EvotecIT/SecurityPolicy#readme) - Configures local security policy user rights assignments without using secedit.exe.
 
 ## Logging & Diagnostics
 
 - [PoShLog](https://github.com/PoShLog/PoShLog#readme) - Cross-platform logging module built on Serilog.
 - [PSEtw](https://github.com/jborean93/PSEtw#readme) - Consumes and processes Event Tracing for Windows (ETW) events.
+- [PSEventViewer](https://github.com/EvotecIT/EventViewerX#readme) - Queries, monitors, and reports on Windows Event Log data for security and Active Directory investigations.
 - [PSFramework](https://github.com/PowershellFrameworkCollective/PSFramework/tree/master#readme) - Configuration, logging, and runtime framework for building robust PowerShell tooling.
 - [PSProfiler](https://github.com/IISResetMe/PSProfiler#readme) - Measures the execution time of individual statements within a script.
 
@@ -120,6 +123,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Databases
 
+- [DbaClientX](https://github.com/EvotecIT/DbaClientX#readme) - Provides a unified client for querying, bulk-loading, and moving data across SQL Server, PostgreSQL, MySQL, SQLite, and Oracle.
 - [dbatools](https://github.com/dataplat/dbatools/tree/master#readme) - Automates [Microsoft SQL Server](https://www.microsoft.com/en-gb/sql-server) instance migration, administration, and best-practice checks.
 - [Influx](https://github.com/markwragg/PowerShell-Influx#readme) - Writes and queries data in the [InfluxDB](https://www.influxdata.com/) time-series database.
 - [Mdbc](https://github.com/nightroman/Mdbc#readme) - Provides cmdlets for working with [MongoDB](https://www.mongodb.com/).
@@ -145,14 +149,17 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 - [ADEssentials](https://github.com/EvotecIT/ADEssentials#readme) - Diagnoses everyday Active Directory issues such as duplicate DNS records, LDAPS certificate problems, and trust health.
 - [ADMF](https://github.com/ActiveDirectoryManagementFramework/ADMF#readme) - Manages Active Directory configuration as declarative, version-controlled contexts.
+- [AuditPolicy](https://github.com/EvotecIT/AuditPolicy#readme) - Gets, sets, and restores Windows audit policies as a native alternative to auditpol.exe.
 - [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab/tree/master#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
 - [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo#readme) - Finds and fixes common misconfigurations in Active Directory-integrated DNS.
+- [CleanupMonster](https://github.com/EvotecIT/CleanupMonster#readme) - Finds and remediates stale Active Directory objects such as inactive computers, users, and service accounts.
 - [DSInternals](https://github.com/michaelgrafnetter/DSInternals#readme) - Audits password hashes, manipulates offline ntds.dit files, and recovers domain controllers from IFM backups.
 - [Evergreen](https://github.com/EUCPilots/evergreen-module#readme) - Returns the latest version numbers and download URLs for common third-party applications.
 - [FindOpenFile](https://github.com/ironmansoftware/findopenfiles#readme) - Finds processes that are holding files open.
 - [GPOTools](https://github.com/FriedrichWeinmann/GPOTools/tree/master#readme) - Provides tools for managing and auditing Group Policy Objects.
 - [GPOZaurr](https://github.com/EvotecIT/GPOZaurr#readme) - GPO Policy Eater finds and fixes common Group Policy misconfigurations.
 - [kbupdate](https://github.com/potatoqualitee/kbupdate#readme) - Views, saves, installs, and uninstalls Windows update packages.
+- [PasswordSolution](https://github.com/EvotecIT/PasswordSolution#readme) - Sends customizable password-expiry notifications and reports on password quality across an Active Directory environment.
 - [PSOpenAD](https://github.com/jborean93/PSOpenAD#readme) - Cross-platform alternative to the Microsoft Active Directory module.
 - [PSPKI](https://github.com/Crypt32/PSPKI#readme) - Manages Active Directory Certificate Services and X.509 certificates.
 - [PSWindowsUpdate](https://github.com/mgajda83/PSWindowsUpdate#readme) - Manages and installs Windows Update packages from the command line.
@@ -160,6 +167,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Networking
 
+- [DnsClientX](https://github.com/EvotecIT/DnsClientX#readme) - Resolves DNS queries over UDP, TLS, and HTTPS against multiple public DNS providers.
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
 - [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol#readme) - Captures and parses CDP and LLDP packets to discover neighbouring network devices.
 - [Subnet](https://github.com/markwragg/PowerShell-Subnet#readme) - Performs subnet calculations such as CIDR conversion, host ranges, and address overlap checks.
@@ -186,6 +194,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSTeams](https://github.com/EvotecIT/PSTeams#readme) - Sends formatted adaptive card messages to Microsoft Teams channels.
 - [ServiceNow](https://github.com/Snow-Shell/servicenow-powershell#readme) - Automates ServiceNow service and asset management.
 - [TOPdeskPS](https://github.com/AndrewPla/TOPdeskPS/tree/master#readme) - Interacts with the TOPdesk IT service management API.
+- [WizCloud](https://github.com/EvotecIT/WizCloud#readme) - Queries cloud security data such as users, projects, and cloud accounts from the Wiz.io API.
 - [VSTeam](https://github.com/MethodsAndPractices/vsteam#readme) - Wraps the Azure DevOps API for use in PowerShell scripts.
 
 ## Reporting & Data Conversion
