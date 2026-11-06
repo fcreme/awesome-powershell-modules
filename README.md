@@ -76,6 +76,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Secrets & Security
 
+- [ADSec](https://github.com/PSSecTools/ADSec#readme) - Provides tools for assessing and hardening Active Directory security.
 - [AzureADAssessment](https://github.com/AzureAD/AzureADAssessment#readme) - Assesses the configuration and security posture of an Azure AD tenant.
 - [EDCA](https://github.com/michelderooij/EDCA#readme) - Assesses Exchange Server deployment configuration and compliance.
 - [HAWK](https://github.com/T0pCyber/hawk#readme) - Gathers forensic data for investigating Microsoft 365 account compromises.
@@ -84,10 +85,10 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Maester](https://github.com/maester365/maester#readme) - Test automation framework for monitoring Microsoft security configuration.
 - [Microsoft.PowerShell.SecretManagement](https://github.com/PowerShell/SecretManagement#readme) - Provides a consistent interface for storing and retrieving secrets across different vaults.
 - [Microsoft.PowerShell.SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
-- [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode signing and verification.
-- [PoShKeePass](https://github.com/PSKeePass/PoShKeePass#readme) - Manages KeePass databases, entries, and groups.
+- [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode for code signing and verification.
 - [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
 - [SecretManagement.DpapiNG](https://github.com/jborean93/SecretManagement.DpapiNG#readme) - SecretManagement vault extension that protects secrets using Windows DPAPI-NG.
+- [SecretManagement.KeePass](https://github.com/JustinGrote/SecretManagement.KeePass#readme) - SecretManagement vault extension for KeePass databases.
 
 ## Logging & Diagnostics
 
@@ -101,7 +102,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh#readme) - Installs and manages the oh-my-posh cross-shell prompt theme engine, which renders prompts using its own compiled binary rather than PowerShell code.
 - [posh-git](https://github.com/dahlbyk/posh-git#readme) - Integrates Git status and tab completion into the PowerShell prompt.
 - [PowerShellRun](https://github.com/mdgrs-mei/PowerShellRun#readme) - Terminal-based launcher and fuzzy finder for PowerShell.
-- [PSFzf](https://github.com/kelleyma49/PSFzf#readme) - Integrates the fzf fuzzy finder with command history and tab completion.
+- [PSFzf](https://github.com/kelleyma49/PSFzf#readme) - Integrates the [fzf](https://github.com/junegunn/fzf) fuzzy finder with command history and tab completion.
 - [PSPreworkout](https://github.com/samerde/PSPreWorkout#readme) - Collection of tools for warming up and customizing a PowerShell session.
 - [PSReadLine](https://github.com/PowerShell/PSReadLine#readme) - Provides syntax highlighting, history search, and improved command-line editing.
 - [PSScriptTools](https://github.com/jdhitsolutions/PSScriptTools#readme) - Collection of functions to enhance your own PowerShell scripts and console work.
@@ -112,16 +113,16 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Databases
 
-- [dbatools](https://github.com/dataplat/dbatools/tree/master#readme) - Automates SQL Server instance migration, administration, and best-practice checks.
-- [Influx](https://github.com/markwragg/PowerShell-Influx#readme) - Writes and queries data in the InfluxDB time-series database.
-- [Mdbc](https://github.com/nightroman/Mdbc#readme) - Provides cmdlets for working with MongoDB.
+- [dbatools](https://github.com/dataplat/dbatools/tree/master#readme) - Automates [Microsoft SQL Server](https://www.microsoft.com/en-gb/sql-server) instance migration, administration, and best-practice checks.
+- [Influx](https://github.com/markwragg/PowerShell-Influx#readme) - Writes and queries data in the [InfluxDB](https://www.influxdata.com/) time-series database.
+- [Mdbc](https://github.com/nightroman/Mdbc#readme) - Provides cmdlets for working with [MongoDB](https://www.mongodb.com/).
 - [SimplySql](https://github.com/mithrandyr/SimplySql#readme) - Provides a vendor-agnostic set of cmdlets for connecting to and querying databases.
-- [SqlServer](https://www.powershellgallery.com/packages/SqlServer) - Official module for querying and managing SQL Server instances and databases.
+- [SqlServer](https://www.powershellgallery.com/packages/SqlServer) - Official module for querying and managing [Microsoft SQL Server](https://www.microsoft.com/en-gb/sql-server) instances and databases.
 
 ## Cloud & Virtualization
 
-- [AWS Tools for PowerShell](https://github.com/aws/aws-tools-for-powershell#readme) - Manages AWS services and resources directly from PowerShell.
-- [Az](https://github.com/Azure/azure-powershell#readme) - Manages Azure resources, from virtual machines to storage accounts, via cmdlets.
+- [AWS Tools for PowerShell](https://github.com/aws/aws-tools-for-powershell#readme) - Manages [AWS]https://aws.amazon.com/) services and resources directly from PowerShell.
+- [Az](https://github.com/Azure/azure-powershell#readme) - Manages [Azure](https://azure.microsoft.com/) resources, from virtual machines to storage accounts, via cmdlets.
 - [AzAuth](https://github.com/PalmEmanuel/AzAuth#readme) - Handles Azure authentication and token acquisition for PowerShell scripts and modules.
 - [AzCostTools](https://github.com/markwragg/PowerShell-AzCostTools#readme) - Provides cmdlets for analyzing and reporting on Azure cost data.
 - [AzViz](https://github.com/PrateekKumarSingh/AzViz#readme) - Generates visual topology diagrams of Azure resource groups.
@@ -136,14 +137,13 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Windows Administration
 
 - [ADMF](https://github.com/ActiveDirectoryManagementFramework/ADMF#readme) - Manages Active Directory configuration as declarative, version-controlled contexts.
-- [ADSec](https://github.com/PSSecTools/ADSec#readme) - Provides tools for assessing and hardening Active Directory security.
 - [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab/tree/master#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
 - [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo#readme) - Finds and fixes common misconfigurations in Active Directory-integrated DNS.
-- [DSInternals](https://github.com/michaelgrafnetter/DSInternals#readme) - Audits and extracts secrets from Active Directory databases and backups for security research.
+- [DSInternals](https://github.com/michaelgrafnetter/DSInternals#readme) - Audits password hashes, manipulates offline ntds.dit files, and recovers domain controllers from IFM backups.
 - [Evergreen](https://github.com/EUCPilots/evergreen-module#readme) - Returns the latest version numbers and download URLs for common third-party applications.
 - [FindOpenFile](https://github.com/ironmansoftware/findopenfiles#readme) - Finds processes that are holding files open.
 - [GPOTools](https://github.com/FriedrichWeinmann/GPOTools/tree/master#readme) - Provides tools for managing and auditing Group Policy Objects.
-- [GPOZaurr](https://github.com/EvotecIT/GPOZaurr#readme) - Finds and fixes common Group Policy misconfigurations.
+- [GPOZaurr](https://github.com/EvotecIT/GPOZaurr#readme) - GPO Policy Eater finds and fixes common Group Policy misconfigurations.
 - [kbupdate](https://github.com/potatoqualitee/kbupdate#readme) - Views, saves, installs, and uninstalls Windows update packages.
 - [PSOpenAD](https://github.com/jborean93/PSOpenAD#readme) - Cross-platform alternative to the Microsoft Active Directory module.
 - [PSPKI](https://github.com/Crypt32/PSPKI#readme) - Manages Active Directory Certificate Services and X.509 certificates.
@@ -153,7 +153,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Networking
 
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
-- [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol#readme) - Captures and parses CDP and LLDP packets to discover neighboring network devices.
+- [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol#readme) - Captures and parses CDP and LLDP packets to discover neighbouring network devices.
 - [Subnet](https://github.com/markwragg/PowerShell-Subnet#readme) - Performs subnet calculations such as CIDR conversion, host ranges, and address overlap checks.
 
 ## Web Servers & APIs
@@ -172,7 +172,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PowerTrello](https://github.com/adbertram/PowerTrello#readme) - Manages Trello boards, lists, and cards via the Trello API.
 - [PSAI](https://github.com/dfinke/PSAI#readme) - Framework for building and orchestrating multi-agent AI systems in PowerShell.
 - [PSAISuite](https://github.com/dfinke/psaisuite#readme) - Standardized abstraction layer for calling 15+ GenAI providers from PowerShell.
-- [PSClaudeCode](https://github.com/dfinke/PSClaudeCode#readme) - PowerShell implementation of the Claude Code agent loop, including tools and permissions.
 - [PSOpenAI](https://github.com/mkht/PSOpenAI#readme) - Wraps the OpenAI API for use in PowerShell scripts.
 - [PSPushover](https://github.com/joshooaj/PSPushover#readme) - Sends push notifications through the Pushover service.
 - [PSTeams](https://github.com/EvotecIT/PSTeams#readme) - Sends formatted adaptive card messages to Microsoft Teams channels.
@@ -215,6 +214,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Learning
 
+- [PSClaudeCode](https://github.com/dfinke/PSClaudeCode#readme) - PowerShell implementation of the Claude Code agent loop, including tools and permissions.
 - [PSKoans](https://github.com/PowerShellOrg/PSKoans#readme) - Teaches the PowerShell language through a series of Pester-based coding exercises.
 - [Tiny-PowerShell-Projects](https://github.com/dfinke/Tiny-PowerShell-Projects#readme) - Teaches PowerShell through test-driven development of small games and puzzles.
 - [tiPS](https://github.com/deadlydog/PowerShell.tiPS#readme) - Delivers PowerShell tips and tricks directly to your terminal on a schedule.
