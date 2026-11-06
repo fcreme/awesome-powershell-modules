@@ -26,7 +26,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Networking](#networking)
 - [Web Servers & APIs](#web-servers--apis)
 - [SaaS Integrations](#saas-integrations)
-- [Reporting & Data Export](#reporting--data-export)
+- [Reporting & Data Conversion](#reporting--data-conversion)
 - [Parallelization](#parallelization)
 - [Packaging & Deployment](#packaging--deployment)
 - [Desktop & Personal Utilities](#desktop--personal-utilities)
@@ -184,7 +184,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [TOPdeskPS](https://github.com/AndrewPla/TOPdeskPS/tree/master#readme) - Interacts with the TOPdesk IT service management API.
 - [VSTeam](https://github.com/MethodsAndPractices/vsteam#readme) - Wraps the Azure DevOps API for use in PowerShell scripts.
 
-## Reporting & Data Export
+## Reporting & Data Conversion
 
 - [ImportExcel](https://github.com/dfinke/ImportExcel#readme) - Reads and writes Excel files without requiring Excel to be installed.
 - [powershell-yaml](https://github.com/cloudbase/powershell-yaml#readme) - Converts between YAML and PowerShell objects.
