@@ -242,6 +242,8 @@ Candidate modules for this list were researched and fact-checked (maintenance st
 
 If you are the maintainer of a module on this list, and would like to showcase your inclusion, you can do so by adding the following badge:
 
+[![Mentioned in Awesome PowerShell Modules](https://awesome.re/mentioned-badge.svg)](https://github.com/markwragg/awesome-powershell-modules#readme)
+
 ```markdown
 [![Mentioned in Awesome PowerShell Modules](https://awesome.re/mentioned-badge.svg)](https://github.com/markwragg/awesome-powershell-modules#readme)
 ```
