@@ -1,0 +1,16 @@
+name: Stale Check
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * 1"
+jobs:
+  check-stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for stale repositories
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/Test-StaleRepos.ps1
