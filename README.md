@@ -3,7 +3,6 @@
 [![Lint Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/awesome-lint.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/awesome-lint.yml)
 [![Repo Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/archived-check.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/archived-check.yml)
 [![Link Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/link-check.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/link-check.yml)
-[![Stale Check](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/stale-check.yml/badge.svg)](https://github.com/markwragg/awesome-powershell-modules/actions/workflows/stale-check.yml)
 
 > A curated list of awesome PowerShell modules for package management, testing, automation, security, cloud administration, and more.
 
