@@ -49,3 +49,20 @@ psake                              https://github.com/psake/psake#readme        
 InvokeBuild                        https://github.com/nightroman/Invoke-Build#readme  Roman Kuzmin               2999721
 ...
 ```
+
+## Find-NewGalleryModules
+
+Lists modules published to the PowerShell Gallery 30-37 days ago (by default) that aren't already in README.md, as candidates to review for inclusion. Queries the Gallery's OData feed directly rather than via `Find-Module`, so it stays fast even as the gallery grows.
+
+```powershell
+.\Find-NewGalleryModules.ps1 | Format-Table Name, Published, Downloads, ProjectUrl
+```
+```text
+Name                           Published           Downloads ProjectUrl
+----                           ---------           --------- ----------
+PS_Completers                  08/10/2026 07:06:25         0 https://www.powershellgallery.com/packages/PS_Completers
+XMLLab                         08/10/2026 04:24:32        16 https://github.com/brianary/XMLLab/
+F5-LTM                         08/10/2026 02:18:30    459178 https://github.com/joel74/POSH-LTM-Rest
+PoSh.FluidTemplateEngine       07/10/2026 22:17:08        83 https://github.com/jul-m/PoSh.FluidTemplateEngine
+...
+```

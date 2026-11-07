@@ -1,0 +1,33 @@
+name: New Modules Check
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+jobs:
+  find-new-modules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Find new gallery modules
+        shell: pwsh
+        run: |
+          $results = ./scripts/Find-NewGalleryModules.ps1
+
+          "## New PowerShell Gallery Modules" >> $env:GITHUB_STEP_SUMMARY
+          "" >> $env:GITHUB_STEP_SUMMARY
+
+          if (-not $results) {
+            "No new modules found 30-37 days old that aren't already in README.md." >> $env:GITHUB_STEP_SUMMARY
+            return
+          }
+
+          "Modules published 30-37 days ago that aren't already in README.md, for review as candidates to add:" >> $env:GITHUB_STEP_SUMMARY
+          "" >> $env:GITHUB_STEP_SUMMARY
+          "| Module | Gallery | Author | Published | Downloads |" >> $env:GITHUB_STEP_SUMMARY
+          "|---|---|---|---|---|" >> $env:GITHUB_STEP_SUMMARY
+
+          foreach ($module in $results) {
+            $name = $module.Name -replace '\|', '\|'
+            $author = $module.Author -replace '\|', '\|'
+            "| [$name]($($module.ProjectUrl)) | [Gallery]($($module.GalleryUrl)) | $author | $($module.Published.ToString('yyyy-MM-dd')) | $($module.Downloads) |" >> $env:GITHUB_STEP_SUMMARY
+          }
