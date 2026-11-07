@@ -67,7 +67,9 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 - [ClassExplorer](https://github.com/SeeminglyScience/ClassExplorer#readme) - Searches loaded .NET assemblies for types and members matching a query.
 - [ConsoleMonster](https://github.com/EvotecIT/ConsoleMonster#readme) - Renders tables, trees, and panels in the console with no external dependencies.
+- [EZOut](https://github.com/StartAutomating/EZOut#readme) - Generates PowerShell format and types XML files from PowerShell, instead of hand-writing them, and can build them via a GitHub Action.
 - [Graphical](https://github.com/PrateekKumarSingh/graphical#readme) - Plots scatter, bar, and line graphs directly in the console.
+- [Irregular](https://github.com/StartAutomating/Irregular#readme) - Provides a library of named, documented regular expression patterns, and helpers for building your own.
 - [PoshColor](https://github.com/JustABearOz/PoshColor#readme) - Colorizes the output of common commands with support for custom themes.
 - [psedit](https://github.com/ironmansoftware/psedit#readme) - Terminal-based text editor for PowerShell, including syntax highlighting for PowerShell, JSON, YAML, XML and Markdown.
 - [PSGalleryExplorer](https://github.com/techthoughts2/PSGalleryExplorer#readme) - Searches, explores, and discovers modules on the PowerShell Gallery.
@@ -84,17 +86,20 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [ADSec](https://github.com/PSSecTools/ADSec#readme) - Provides tools for assessing and hardening Active Directory security.
 - [AzureADAssessment](https://github.com/AzureAD/AzureADAssessment#readme) - Assesses the configuration and security posture of an Azure AD tenant.
 - [EDCA](https://github.com/michelderooij/EDCA#readme) - Assesses Exchange Server deployment configuration and compliance.
+- [ESCalator](https://github.com/jakehildreth/ESCalator#readme) - Identifies and abuses AD CS ESC issue combinations that may not be readily obvious.
 - [HAWK](https://github.com/T0pCyber/hawk#readme) - Gathers forensic data for investigating Microsoft 365 account compromises.
 - [JEAnalyzer](https://github.com/PSSecTools/JEAnalyzer#readme) - Converts scripts and script blocks into Just Enough Administration role capability files.
 - [Locksmith](https://github.com/jakehildreth/Locksmith#readme) - Finds and fixes common misconfigurations in Active Directory Certificate Services.
 - [Maester](https://github.com/maester365/maester#readme) - Test automation framework for monitoring Microsoft security configuration.
 - [Microsoft.PowerShell.SecretManagement](https://github.com/PowerShell/SecretManagement#readme) - Provides a consistent interface for storing and retrieving secrets across different vaults.
 - [Microsoft.PowerShell.SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
+- [Obol](https://github.com/jborean93/PowerShell-Obol#readme) - Runs a Kerberos KDC endpoint in PowerShell based on Kerberos.NET.
 - [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode for code signing and verification.
 - [PSPGP](https://github.com/EvotecIT/PSPGP#readme) - Encrypts, decrypts, signs, and verifies files and strings using PGP.
 - [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
 - [SecretManagement.DpapiNG](https://github.com/jborean93/SecretManagement.DpapiNG#readme) - SecretManagement vault extension that protects secrets using Windows DPAPI-NG.
 - [SecretManagement.KeePass](https://github.com/JustinGrote/SecretManagement.KeePass#readme) - SecretManagement vault extension for KeePass databases.
+- [SecretManagement.LinuxKeyring](https://github.com/Skatterbrainz/SecretManagement.LinuxKeyring#readme) - SecretManagement vault extension that stores secrets in the Linux keyring (libsecret).
 - [SectigoCertificateManager](https://github.com/EvotecIT/SectigoCertificateManager#readme) - Manages Sectigo SSL/TLS certificate lifecycle operations including issuance, renewal, and revocation.
 - [SecurityPolicy](https://github.com/EvotecIT/SecurityPolicy#readme) - Configures local security policy user rights assignments without using secedit.exe.
 
@@ -127,6 +132,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Influx](https://github.com/markwragg/PowerShell-Influx#readme) - Writes and queries data in the [InfluxDB](https://www.influxdata.com/) time-series database.
 - [Mdbc](https://github.com/nightroman/Mdbc#readme) - Provides cmdlets for working with [MongoDB](https://www.mongodb.com/).
 - [SimplySql](https://github.com/mithrandyr/SimplySql#readme) - Provides a vendor-agnostic set of cmdlets for connecting to and querying databases.
+- [SqlChangeAutomation](https://www.red-gate.com/products/sql-change-automation/support/) - Automates production-quality database schema deployments using Red Gate's SQL Change Automation engine.
 - [SqlServer](https://www.powershellgallery.com/packages/SqlServer) - Official module for querying and managing [Microsoft SQL Server](https://www.microsoft.com/en-gb/sql-server) instances and databases.
 
 ## Cloud & Virtualization
@@ -135,8 +141,10 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Az](https://github.com/Azure/azure-powershell#readme) - Manages [Azure](https://azure.microsoft.com/) resources, from virtual machines to storage accounts, via cmdlets.
 - [AzAuth](https://github.com/PalmEmanuel/AzAuth#readme) - Handles Azure authentication and token acquisition for PowerShell scripts and modules.
 - [AzCostTools](https://github.com/markwragg/PowerShell-AzCostTools#readme) - Provides cmdlets for analyzing and reporting on Azure cost data.
+- [azswap](https://github.com/JoePittsy/azswap#readme) - Isolates Azure CLI profiles per tenant identity, so each shell keeps its own subscription context instead of sharing one globally.
 - [AzViz](https://github.com/PrateekKumarSingh/AzViz#readme) - Generates visual topology diagrams of Azure resource groups.
 - [Bicep](https://github.com/PSBicep/PSBicep#readme) - Compiles, decompiles, and manages Bicep Azure infrastructure-as-code files.
+- [Corsinvest.ProxmoxVE.Api](https://github.com/Corsinvest/cv4pve-api-powershell#readme) - Manages Proxmox VE virtualization hosts, VMs, and containers via the Proxmox REST API.
 - [MIAU](https://github.com/HCRitter/MIAU#readme) - Simplifies day-to-day Azure Managed Identity operations.
 - [Microsoft.Entra](https://github.com/microsoftgraph/entra-powershell#readme) - Official module for managing Microsoft Entra ID resources such as users, groups, and applications.
 - [Microsoft.Graph](https://github.com/microsoftgraph/msgraph-sdk-powershell#readme) - Official Microsoft Graph SDK for PowerShell, covering Entra ID, Teams, SharePoint, and more.
@@ -151,6 +159,8 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [AuditPolicy](https://github.com/EvotecIT/AuditPolicy#readme) - Gets, sets, and restores Windows audit policies as a native alternative to auditpol.exe.
 - [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab/tree/master#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
 - [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo#readme) - Finds and fixes common misconfigurations in Active Directory-integrated DNS.
+- [Carbon](https://github.com/webmd-health-services/Carbon#readme) - Automates Windows configuration tasks such as IIS, firewalls, scheduled tasks, services, shares, and the registry.
+- [Carbon.Accounts](https://github.com/webmd-health-services/Carbon.Accounts#readme) - Manages accounts, identities, principals, users, groups, and privileges.
 - [CleanupMonster](https://github.com/EvotecIT/CleanupMonster#readme) - Finds and remediates stale Active Directory objects such as inactive computers, users, and service accounts.
 - [DSInternals](https://github.com/michaelgrafnetter/DSInternals#readme) - Audits password hashes, manipulates offline ntds.dit files, and recovers domain controllers from IFM backups.
 - [Evergreen](https://github.com/EUCPilots/evergreen-module#readme) - Returns the latest version numbers and download URLs for common third-party applications.
@@ -167,9 +177,11 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Networking
 
 - [DnsClientX](https://github.com/EvotecIT/DnsClientX#readme) - Resolves DNS queries over UDP, TLS, and HTTPS against multiple public DNS providers.
+- [F5-LTM](https://github.com/joel74/POSH-LTM-Rest#readme) - Queries and configures F5 BIG-IP LTM devices via the F5 REST API.
 - [Posh-SSH](https://github.com/darkoperator/Posh-SSH#readme) - Creates SSH and SCP sessions to run commands and transfer files on remote hosts.
 - [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol#readme) - Captures and parses CDP and LLDP packets to discover neighbouring network devices.
 - [Subnet](https://github.com/markwragg/PowerShell-Subnet#readme) - Performs subnet calculations such as CIDR conversion, host ranges, and address overlap checks.
+- [SwisPowerShell](https://github.com/solarwinds/OrionSDK#readme) - Manages SolarWinds Orion Platform nodes, alerts, and custom properties via the Orion SDK.
 - [Transferetto](https://github.com/EvotecIT/Transferetto#readme) - Transfers files and objects across FTP, SFTP, SCP, S3-compatible storage, and Azure Blob Storage through a unified interface.
 
 ## Web Servers & APIs
@@ -207,6 +219,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSSVG](https://github.com/StartAutomating/PSSVG#readme) - Generates and animates SVG graphics using a PowerShell-based DSL.
 - [PSWriteHTML](https://github.com/EvotecIT/PSWriteHTML#readme) - Builds interactive HTML reports, dashboards, and charts.
 - [PSWriteOffice](https://github.com/EvotecIT/OfficeIMO/tree/master/PowerShell/PSWriteOffice#readme) - Creates and edits Word, Excel, PowerPoint, and PDF documents without requiring Microsoft Office.
+- [RoughDraft](https://github.com/StartAutomating/RoughDraft#readme) - Provides pipeline-aware commands to create, convert, query, edit, and join multimedia files, built atop FFmpeg.
 
 ## Parallelization
 
@@ -227,10 +240,13 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [DesktopManager](https://github.com/EvotecIT/DesktopManager#readme) - Automates Windows desktop tasks including monitor layout, window placement, audio endpoints, and wallpapers.
 - [HashCopy](https://github.com/markwragg/Powershell-HashCopy#readme) - Copies and compares files between two paths based on computed hash values rather than modified dates.
 - [Lumos](https://github.com/markwragg/powershell-lumos#readme) - Switches Windows, macOS, and Linux between light and dark themes depending on the time of day.
+- [obs-powershell](https://github.com/StartAutomating/obs-powershell#readme) - Scripts Open Broadcaster Software (OBS) Studio via its WebSocket API.
 - [PowerBGInfo](https://github.com/EvotecIT/PowerBGInfo#readme) - Generates desktop wallpapers and lock screens displaying system information and status metrics.
 - [PSBluesky](https://github.com/jdhitsolutions/PSBluesky#readme) - Posts, views, and manages your feed and timeline on Bluesky.
 - [PSCalendar](https://github.com/jdhitsolutions/PSCalendar#readme) - Displays calendars in the console.
 - [PSCommander](https://github.com/ironmansoftware/pscommander#readme) - Wires up desktop integrations such as hotkeys, tray icons, and scheduled tasks to PowerShell script blocks.
+- [PSLedger](https://github.com/hansEricG/PSLedger#readme) - Command-line double-entry bookkeeping system backed by plain text files.
+- [PSTimers](https://github.com/jdhitsolutions/pstimers#readme) - Provides timer, countdown, and stopwatch functions for PowerShell scripts and console use.
 - [PSWorkItem](https://github.com/jdhitsolutions/PSWorkItem#readme) - Manages personal tasks and to-do items backed by a local SQLite database.
 
 ## Learning
