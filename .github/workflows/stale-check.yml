@@ -8,7 +8,7 @@ jobs:
   check-stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Check for stale repositories
         shell: pwsh
         env:
