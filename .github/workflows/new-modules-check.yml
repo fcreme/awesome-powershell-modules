@@ -3,12 +3,17 @@ on:
   schedule:
     - cron: "0 0 * * 1"
   workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
 jobs:
   find-new-modules:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - name: Find new gallery modules
+        id: find
         shell: pwsh
         run: |
           $results = ./scripts/Find-NewGalleryModules.ps1
@@ -18,6 +23,7 @@ jobs:
 
           if (-not $results) {
             "No new modules found 30-37 days old that aren't already in README.md." >> $env:GITHUB_STEP_SUMMARY
+            "has_results=false" >> $env:GITHUB_OUTPUT
             return
           }
 
@@ -31,3 +37,56 @@ jobs:
             $author = $module.Author -replace '\|', '\|'
             "| [$name]($($module.ProjectUrl)) | [Gallery]($($module.GalleryUrl)) | $author | $($module.Published.ToString('yyyy-MM-dd')) | $($module.Downloads) |" >> $env:GITHUB_STEP_SUMMARY
           }
+
+          $results | ConvertTo-Json -Depth 4 | Out-File -FilePath candidates.json -Encoding utf8
+          "has_results=true" >> $env:GITHUB_OUTPUT
+      - name: Review candidates with Claude and open a PR
+        if: steps.find.outputs.has_results == 'true'
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: |
+            --allowedTools "Read,Edit,WebFetch,Bash(git:*),Bash(gh:*),Bash(date:*)"
+          prompt: |
+            REPO: ${{ github.repository }}
+
+            candidates.json (in the repo root) lists PowerShell modules first published to
+            the PowerShell Gallery 30-37 days ago that are not currently listed in README.md.
+            Each entry has: Name, ProjectUrl, GalleryUrl, Author, FirstPublished, Published,
+            Downloads, Description.
+
+            For every candidate:
+            1. Look at its ProjectUrl / GalleryUrl (and the module's source repo, if linked)
+               to judge whether it's a good fit for this curated "awesome list": actively
+               maintained, has a clear single purpose, reasonable documentation, and isn't a
+               near-duplicate of a module already in README.md.
+            2. Decide "include" or "exclude" and write one concise sentence explaining why.
+
+            For every candidate you decide to include:
+            - Add it to README.md under the single most appropriate existing category
+              (see the "## Contents" list and the section headings below it). Keep entries
+              within that category in alphabetical order by module name, matching the
+              existing format exactly: `- [Name](ProjectUrl) - Description.`
+            - Write the description in the same terse, factual style as the surrounding
+              entries (what the module does, not marketing language). Do not invent a new
+              category - pick the closest existing one. Do not reorder or otherwise edit
+              unrelated entries.
+
+            Do not add candidates you decide to exclude, and don't modify anything else in
+            the repo.
+
+            If you add at least one module to README.md:
+            - Create a new branch named `new-modules/<today in YYYY-MM-DD>` (append `-2`,
+              `-3`, etc. if that branch already exists).
+            - Commit the README.md change with message "Add new candidate module(s) to README".
+            - Push the branch and open a pull request against the repository's default
+              branch with `gh pr create`.
+            - The PR body must list every candidate from candidates.json, grouped under
+              "### Added" and "### Not added" headings, each as a bullet with the module
+              name and your one-sentence reasoning.
+
+            If you decide none of the candidates are a good fit, do not create a branch,
+            commit, or PR. Instead append a "## Candidate Module Review" section to
+            $GITHUB_STEP_SUMMARY listing each candidate and your exclusion reasoning.
