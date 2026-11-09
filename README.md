@@ -95,6 +95,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Microsoft.PowerShell.SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
 - [Obol](https://github.com/jborean93/PowerShell-Obol#readme) - Runs a Kerberos KDC endpoint in PowerShell based on Kerberos.NET.
 - [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode for code signing and verification.
+- [PSAuthClient](https://github.com/alflokken/PSAuthClient#readme) - Performs OAuth2.0 and OpenID Connect (OIDC) authentication flows, including JWT decoding and signature validation.
 - [PSPGP](https://github.com/EvotecIT/PSPGP#readme) - Encrypts, decrypts, signs, and verifies files and strings using [PGP (Pretty Good Privacy)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy).
 - [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
 - [SecretManagement.DpapiNG](https://github.com/jborean93/SecretManagement.DpapiNG#readme) - SecretManagement vault extension that protects secrets using Windows DPAPI-NG.
