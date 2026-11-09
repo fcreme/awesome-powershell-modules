@@ -79,7 +79,6 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui, primarily intended as examples and reference material.
 - [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
 - [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole/tree/main#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
-- [PWRSWriteColorEX](https://github.com/Variably-Constant/PWRSWriteColorEX) - Writes colored and styled console output with TrueColor, gradients, and markup, as a Rust-backed, cross-platform drop-in for PSWriteColorEX.
 - [ugit](https://github.com/StartAutomating/ugit#readme) - (Updated Git) extends and automates Git by converting Git output to PowerShell objects.
 
 ## Secrets & Security
