@@ -57,7 +57,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PowerShellBuild](https://github.com/psake/PowerShellBuild#readme) - Common build, test, and packaging tasks for PowerShell module projects.
 - [psake](https://github.com/psake/psake#readme) - Build automation tool for defining and running build tasks in PowerShell.
 - [PSDeploy](https://github.com/RamblingCookieMonster/PSDeploy#readme) - Defines and runs simple, declarative PowerShell-based deployments.
-- [PSModuleDevelopment](https://github.com/PowershellFrameworkCollective/PSModuleDevelopment/tree/master#readme) - Provides templates and tooling for scaffolding new PowerShell modules.
+- [PSModuleDevelopment](https://github.com/PowershellFrameworkCollective/PSModuleDevelopment/tree/master#readme) - Templating engine for scaffolding new PowerShell projects, plus tools for organizing script files and fixing encodings and parameter blocks.
 
 ## Documentation
 
@@ -85,7 +85,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 
 ## Secrets & Security
 
-- [ADSec](https://github.com/PSSecTools/ADSec#readme) - Provides tools for assessing and hardening Active Directory security.
+- [ADSec](https://github.com/PSSecTools/ADSec#readme) - Manages Active Directory delegation and privilege revocation, and monitors AD objects for security-relevant configuration changes.
 - [AzureADAssessment](https://github.com/AzureAD/AzureADAssessment#readme) - Assesses the configuration and security posture of an Azure AD tenant.
 - [EDCA](https://github.com/michelderooij/EDCA#readme) - Assesses Exchange Server deployment configuration and compliance.
 - [ESCalator](https://github.com/jakehildreth/ESCalator#readme) - Identifies and abuses AD CS ESC issue combinations that may not be readily obvious.
@@ -95,7 +95,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Maester](https://github.com/maester365/maester#readme) - Test automation framework for monitoring Microsoft security configuration.
 - [Microsoft.PowerShell.SecretManagement](https://github.com/PowerShell/SecretManagement#readme) - Provides a consistent interface for storing and retrieving secrets across different vaults.
 - [Microsoft.PowerShell.SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
-- [Obol](https://github.com/jborean93/PowerShell-Obol#readme) - Runs a Kerberos KDC endpoint in PowerShell based on Kerberos.NET.
+- [Obol](https://github.com/jborean93/PowerShell-Obol#readme) - Runs an in-process Kerberos KDC, based on Kerberos.NET, for testing Kerberos clients and services without a domain controller.
 - [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode for code signing and verification.
 - [PowerSTIG](https://github.com/microsoft/PowerStig#readme) - Applies and audits DISA Security Technical Implementation Guide (STIG) settings using Desired State Configuration.
 - [PSAuthClient](https://github.com/alflokken/PSAuthClient#readme) - Performs OAuth2.0 and OpenID Connect (OIDC) authentication flows, including JWT decoding and signature validation.
@@ -125,7 +125,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSReadLine](https://github.com/PowerShell/PSReadLine#readme) - Provides syntax highlighting, history search, and improved command-line editing.
 - [PSScriptTools](https://github.com/jdhitsolutions/PSScriptTools#readme) - Collection of functions to enhance your own PowerShell scripts and console work.
 - [PSTui](https://github.com/tui-cs/PSTui#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
-- [PSUtil](https://github.com/PowershellFrameworkCollective/PSUtil#readme) - Provides shortcuts, aliases, and convenience functions for a more efficient console experience.
+- [PSUtil](https://github.com/PowershellFrameworkCollective/PSUtil#readme) - Provides short aliases, keybindings, and pipeline helper functions that cut down typing in everyday console use.
 - [PSZoxide](https://github.com/InfiniteRoomLabs/PSZoxide#readme) - Pure PowerShell clone of zoxide that learns your most-used directories and provides `z` and `zi` navigation without the zoxide binary.
 - [TerminalGlyphs](https://github.com/marr-cloud/TerminalGlyphs#readme) - Displays Nerd Font icons and colors for files and folders in directory listings, as a maintained reimplementation of Terminal-Icons that never writes to disk on import.
 - [Watch](https://github.com/markwragg/Powershell-Watch#readme) - Repeatedly runs a command or script block and returns output only when it changes.
@@ -150,7 +150,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [AzViz](https://github.com/PrateekKumarSingh/AzViz#readme) - Generates visual topology diagrams of Azure resource groups.
 - [Bicep](https://github.com/PSBicep/PSBicep#readme) - Compiles, decompiles, and manages Bicep Azure infrastructure-as-code files.
 - [Corsinvest.ProxmoxVE.Api](https://github.com/Corsinvest/cv4pve-api-powershell#readme) - Manages Proxmox VE virtualization hosts, VMs, and containers via the Proxmox REST API.
-- [MIAU](https://github.com/HCRitter/MIAU#readme) - Simplifies day-to-day Azure Managed Identity operations.
+- [MIAU](https://github.com/HCRitter/MIAU#readme) - Inventories Azure Managed Identities and manages their Microsoft Graph permissions and Azure RBAC role assignments.
 - [Microsoft.Entra](https://github.com/microsoftgraph/entra-powershell#readme) - Official module for managing Microsoft Entra ID resources such as users, groups, and applications.
 - [Microsoft.Graph](https://github.com/microsoftgraph/msgraph-sdk-powershell#readme) - Official Microsoft Graph SDK for PowerShell, covering Entra ID, Teams, SharePoint, and more.
 - [Microsoft365DSC](https://github.com/Microsoft365DSC/Microsoft365DSC#readme) - Manages, configures, extracts, and monitors Microsoft 365 tenant configurations.
@@ -165,19 +165,19 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab/tree/master#readme) - Provisions complex Active Directory, Exchange, and PKI test labs on Hyper-V and Azure.
 - [BlueTuxedo](https://github.com/jakehildreth/BlueTuxedo#readme) - Finds and fixes common misconfigurations in Active Directory-integrated DNS.
 - [Carbon](https://github.com/webmd-health-services/Carbon#readme) - Automates Windows configuration tasks such as IIS, firewalls, scheduled tasks, services, shares, and the registry.
-- [Carbon.Accounts](https://github.com/webmd-health-services/Carbon.Accounts#readme) - Manages accounts, identities, principals, users, groups, and privileges.
+- [Carbon.Accounts](https://github.com/webmd-health-services/Carbon.Accounts#readme) - Manages local groups, resolves principals and SIDs, and checks elevated privileges across Windows, Linux, and macOS.
 - [CleanupMonster](https://github.com/EvotecIT/CleanupMonster#readme) - Finds and remediates stale Active Directory objects such as inactive computers, users, and service accounts.
 - [DSInternals](https://github.com/michaelgrafnetter/DSInternals#readme) - Audits password hashes, manipulates offline ntds.dit files, and recovers domain controllers from IFM backups.
 - [Evergreen](https://github.com/EUCPilots/evergreen-module#readme) - Returns the latest version numbers and download URLs for common third-party applications.
 - [FindOpenFile](https://github.com/ironmansoftware/findopenfiles#readme) - Finds processes that are holding files open.
-- [GPOTools](https://github.com/FriedrichWeinmann/GPOTools/tree/master#readme) - Provides tools for managing and auditing Group Policy Objects.
+- [GPOTools](https://github.com/FriedrichWeinmann/GPOTools/tree/master#readme) - Migrates Group Policy Objects between domains, preserving WMI filters, links, and permissions that built-in backup/restore tools drop.
 - [GPOZaurr](https://github.com/EvotecIT/GPOZaurr#readme) - GPO Policy Eater finds and fixes common Group Policy misconfigurations.
 - [kbupdate](https://github.com/potatoqualitee/kbupdate#readme) - Views, saves, installs, and uninstalls Windows update packages.
 - [PasswordSolution](https://github.com/EvotecIT/PasswordSolution#readme) - Sends customizable password-expiry notifications and reports on password quality across an Active Directory environment.
 - [PSOpenAD](https://github.com/jborean93/PSOpenAD#readme) - Cross-platform alternative to the Microsoft Active Directory module.
 - [PSPKI](https://github.com/Crypt32/PSPKI#readme) - Manages Active Directory Certificate Services and X.509 certificates.
 - [PSWindowsUpdate](https://github.com/mgajda83/PSWindowsUpdate#readme) - Manages and installs Windows Update packages from the command line.
-- [TheCleaners](https://github.com/SamErde/TheCleaners#readme) - Cleans up loose ends and leftover artifacts on Windows Servers.
+- [TheCleaners](https://github.com/SamErde/TheCleaners#readme) - Removes Windows temporary files and discovers stale user profiles and IIS/Exchange logs for cleanup.
 - [WindowsAccessControl](https://github.com/raandree/WindowsAccessControl#readme) - Manages owner, DACL, SACL, inheritance, and effective access across NTFS files, registry keys, services, SMB shares, and Active Directory objects.
 
 ## Networking
