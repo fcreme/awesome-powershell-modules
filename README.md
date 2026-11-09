@@ -36,6 +36,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 ## Package & Dependency Management
 
 - [Microsoft.PowerShell.PSResourceGet](https://github.com/PowerShell/PSResourceGet#readme) - Next-generation package manager for PowerShell modules, scripts, and DSC resources.
+- [Microsoft.WinGet.Client](https://www.powershellgallery.com/packages/Microsoft.WinGet.Client) - Official module for finding, installing, updating, and managing packages through the Windows Package Manager (winget).
 - [ModuleFast](https://github.com/JustinGrote/ModuleFast#readme) - Rapid, parallelized module installer for PowerShell. Prioritises speed of installation, at the expense of backwards compatibility.
 - [PSDepend](https://github.com/PowerShellOrg/PSDepend#readme) - Declarative dependency handler for PowerShell projects, similar to Python's `pip install -r requirements.txt`.
 
@@ -77,6 +78,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSparklines](https://github.com/endowdly/PSparklines#readme) - Renders sparkline charts directly in the console.
 - [PSQR](https://github.com/jakehildreth/psqr#readme) - Generates QR codes directly in the terminal, by wrapping the [qrencode](https://github.com/fukuchi/libqrencode) utility.
 - [PSTuiTools](https://github.com/jdhitsolutions/PSTuiTools#readme) - Collection of terminal UI tools built with Terminal.Gui, primarily intended as examples and reference material.
+- [PsUi](https://github.com/jlabon2/PsUi#readme) - Builds multi-threaded WPF GUIs for PowerShell scripts without manual runspace or dispatcher management.
 - [PSWriteColor](https://github.com/EvotecIT/PSWriteColor#readme) - Writes multi-color text to the console on a single line.
 - [PwshSpectreConsole](https://github.com/ShaunLawrie/PwshSpectreConsole/tree/main#readme) - Wraps the Spectre.Console library to build rich tables, prompts, and progress bars in the terminal.
 - [ugit](https://github.com/StartAutomating/ugit#readme) - (Updated Git) extends and automates Git by converting Git output to PowerShell objects.
@@ -95,6 +97,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [Microsoft.PowerShell.SecretStore](https://github.com/PowerShell/SecretStore#readme) - Local, encrypted secret vault extension for SecretManagement.
 - [Obol](https://github.com/jborean93/PowerShell-Obol#readme) - Runs a Kerberos KDC endpoint in PowerShell based on Kerberos.NET.
 - [OpenAuthenticode](https://github.com/jborean93/PowerShell-OpenAuthenticode#readme) - Cross-platform implementation of Authenticode for code signing and verification.
+- [PowerSTIG](https://github.com/microsoft/PowerStig#readme) - Applies and audits DISA Security Technical Implementation Guide (STIG) settings using Desired State Configuration.
 - [PSAuthClient](https://github.com/alflokken/PSAuthClient#readme) - Performs OAuth2.0 and OpenID Connect (OIDC) authentication flows, including JWT decoding and signature validation.
 - [PSPGP](https://github.com/EvotecIT/PSPGP#readme) - Encrypts, decrypts, signs, and verifies files and strings using [PGP (Pretty Good Privacy)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy).
 - [PSSecretScanner](https://github.com/bjompen/PSSecretScanner#readme) - Scans repositories for accidentally exposed secrets.
@@ -175,6 +178,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSPKI](https://github.com/Crypt32/PSPKI#readme) - Manages Active Directory Certificate Services and X.509 certificates.
 - [PSWindowsUpdate](https://github.com/mgajda83/PSWindowsUpdate#readme) - Manages and installs Windows Update packages from the command line.
 - [TheCleaners](https://github.com/SamErde/TheCleaners#readme) - Cleans up loose ends and leftover artifacts on Windows Servers.
+- [WindowsAccessControl](https://github.com/raandree/WindowsAccessControl#readme) - Manages owner, DACL, SACL, inheritance, and effective access across NTFS files, registry keys, services, SMB shares, and Active Directory objects.
 
 ## Networking
 
