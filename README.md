@@ -128,6 +128,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSUtil](https://github.com/PowershellFrameworkCollective/PSUtil#readme) - Provides short aliases, keybindings, and pipeline helper functions that cut down typing in everyday console use.
 - [PSZoxide](https://github.com/InfiniteRoomLabs/PSZoxide#readme) - Pure PowerShell clone of zoxide that learns your most-used directories and provides `z` and `zi` navigation without the zoxide binary.
 - [TerminalGlyphs](https://github.com/marr-cloud/TerminalGlyphs#readme) - Displays Nerd Font icons and colors for files and folders in directory listings, as a maintained reimplementation of Terminal-Icons that never writes to disk on import.
+- [TerminalStyles](https://github.com/fcreme/TerminalStyles#readme) - Previews terminal colour themes live in the current tab, with matching prompts for PowerShell, bash and zsh, and background images on Windows Terminal and WezTerm.
 - [Watch](https://github.com/markwragg/Powershell-Watch#readme) - Repeatedly runs a command or script block and returns output only when it changes.
 
 ## Databases
