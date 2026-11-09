@@ -126,7 +126,7 @@ Install any module below with `Install-Module <Name>` (PowerShellGet) or `Instal
 - [PSScriptTools](https://github.com/jdhitsolutions/PSScriptTools#readme) - Collection of functions to enhance your own PowerShell scripts and console work.
 - [PSTui](https://github.com/tui-cs/PSTui#readme) - Adds console-based grid view and list selection cmdlets such as `Out-ConsoleGridView`.
 - [PSUtil](https://github.com/PowershellFrameworkCollective/PSUtil#readme) - Provides shortcuts, aliases, and convenience functions for a more efficient console experience.
-- [PSZoxide](https://github.com/InfiniteRoomLabs/PSZoxide) - Pure PowerShell clone of zoxide that learns your most-used directories and provides `z` and `zi` navigation without the zoxide binary.
+- [PSZoxide](https://github.com/InfiniteRoomLabs/PSZoxide#readme) - Pure PowerShell clone of zoxide that learns your most-used directories and provides `z` and `zi` navigation without the zoxide binary.
 - [TerminalGlyphs](https://github.com/marr-cloud/TerminalGlyphs#readme) - Displays Nerd Font icons and colors for files and folders in directory listings, as a maintained reimplementation of Terminal-Icons that never writes to disk on import.
 - [Watch](https://github.com/markwragg/Powershell-Watch#readme) - Repeatedly runs a command or script block and returns output only when it changes.
 
